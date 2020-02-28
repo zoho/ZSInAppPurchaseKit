@@ -12,7 +12,7 @@ Pod::Spec.new do |spec|
   Zoho Subscriptions is a recurring billing platform that helps you manage customer subscriptions and subscription-related finances.
                          DESC
 
-  spec.license      = "MIT (example)"
+  spec.license      = "MIT"
 
   spec.author             = { "Zoho Corporation" => "support@zohosubscriptions.com" }
   spec.social_media_url   = "https://twitter.com/ZSubscriptions"

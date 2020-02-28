@@ -21,7 +21,7 @@ Pod::Spec.new do |spec|
 
   spec.source       = { :git => "https://github.com/zoho/ZSInAppPurchaseKit.git", :tag => spec.version.to_s }
 
-  spec.documentation_url = "https://zs-inapp-sdk-docs-698827873.development.zohocatalyst.com/app/iOS/"
+  spec.documentation_url = "https://zs-inapp-sdk-docs-698827873.development.zohocatalyst.com/app/iOS/index.html"
 
   spec.vendored_frameworks = "ZSInAppPurchaseKit.xcframework"
   spec.framework  = "StoreKit"

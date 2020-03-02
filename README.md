@@ -30,6 +30,6 @@ $ pod install
 
 **ZSInAppPurchaseKit.xcframework**
 
-If you are not using Coocapods in your project you can download and add our ZSInAppPurchaseKit.xcframework in to your project.
+If you are not using Coocapods in your project you can download and add our [ZSInAppPurchaseKit.xcframework](https://github.com/zoho/ZSInAppPurchaseKit/tree/master/ZSInAppPurchaseKit.xcframework) in to your project.
 
 ---

@@ -404,6 +404,7 @@ SWIFT_CLASS("_TtC18ZSInAppPurchaseKit5ZSKit")
 + (void)isUserEligibleForIntroductoryOfferWithCompletion:(void (^ _Nonnull)(BOOL, ZSError * _Nullable))completion;
 + (void)isStorePurchaseAssociatedWithCurrentUserWithCompletion:(void (^ _Nonnull)(BOOL, NSString * _Nullable, ZSError * _Nullable))completion;
 + (ZSFileAttachment * _Nullable)getPurchaseMetadataFromStore SWIFT_WARN_UNUSED_RESULT;
+/// Clear the user information from the sdk on sign out using this method.
 + (void)clearUserInfo;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
@@ -983,6 +984,7 @@ SWIFT_CLASS("_TtC18ZSInAppPurchaseKit5ZSKit")
 + (void)isUserEligibleForIntroductoryOfferWithCompletion:(void (^ _Nonnull)(BOOL, ZSError * _Nullable))completion;
 + (void)isStorePurchaseAssociatedWithCurrentUserWithCompletion:(void (^ _Nonnull)(BOOL, NSString * _Nullable, ZSError * _Nullable))completion;
 + (ZSFileAttachment * _Nullable)getPurchaseMetadataFromStore SWIFT_WARN_UNUSED_RESULT;
+/// Clear the user information from the sdk on sign out using this method.
 + (void)clearUserInfo;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end

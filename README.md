@@ -18,7 +18,7 @@ To install ZSInAppPurchaseKit in your XCode project using cocoapods, add the bel
 use_frameworks!
 
 target '<YOUR_TARGET>' do
-    pod 'ZSInAppPurchaseKit', '0.0.1-beta1'
+    pod 'ZSInAppPurchaseKit', '1.0.0'
 end
 ```
 
@@ -33,3 +33,52 @@ $ pod install
 If you are not using Coocapods in your project you can download and add our [ZSInAppPurchaseKit.xcframework](https://github.com/zoho/ZSInAppPurchaseKit/tree/master/ZSInAppPurchaseKit.xcframework) in to your project.
 
 ---
+
+
+Implementation
+--
+
+**Initalization**
+
+```
+let zsConfiguration = ZSConfiguration(apiKey: YOUR_API_KEY, zsProductId: YOUR_PRODUCT_ID, domain: DOMAIN)
+    zsConfiguration.setUserInfo(userId: APP_USER_ID, email: APP_USER_EMAIL, displayName: APP_USER_DISPLAY_NAME)
+    ZSKit.initialize(with: zsConfiguration)
+```
+
+**Get Subscription Details**
+
+```
+    ZSKit.getSubscriptionDetails 
+    { (subsDetails, error) in
+    //Handle the provisioning.
+    }
+```
+
+**Get Plans**
+
+```
+    ZSKit.getPlans
+    { (plans, error) in
+        //Show the UI with plans list.
+    }
+```
+
+**Initiate Purchase**
+
+```
+    ZSKit.initiatePurchase(product: USER_SELECTED_PRODUCT)
+    { (subsDetail, error) in
+        //Subscription Handling Code goes here
+    }
+    
+```
+
+**Clear User Info**
+
+```
+    //Clear the user information from sdk on the sign out using this method.
+    ZSKit.clearUserInfo()
+    
+```
+

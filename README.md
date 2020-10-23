@@ -46,15 +46,6 @@ let zsConfiguration = ZSConfiguration(apiKey: YOUR_API_KEY, zsProductId: YOUR_PR
     ZSKit.initialize(with: zsConfiguration)
 ```
 
-**Get Subscription Details**
-
-```
-    ZSKit.getSubscriptionDetails 
-    { (subsDetails, error) in
-    //Handle the provisioning.
-    }
-```
-
 **Get Plans**
 
 ```

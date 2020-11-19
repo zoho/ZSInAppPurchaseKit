@@ -18,7 +18,7 @@ To install ZSInAppPurchaseKit in your XCode project using cocoapods, add the bel
 use_frameworks!
 
 target '<YOUR_TARGET>' do
-    pod 'ZSInAppPurchaseKit', '1.0.0'
+    pod 'ZSInAppPurchaseKit', '1.0.1-beta01'
 end
 ```
 
@@ -30,7 +30,7 @@ $ pod install
 
 **ZSInAppPurchaseKit.xcframework**
 
-If you are not using Coocapods in your project you can download and add our [ZSInAppPurchaseKit.xcframework](https://github.com/zoho/ZSInAppPurchaseKit/tree/master/ZSInAppPurchaseKit.xcframework) in to your project.
+If you are not using Coocapods in your project you can download and add our [ZSInAppPurchaseKit.xcframework](https://github.com/zoho/ZSInAppPurchaseKit/releases/download/1.0.1-beta01/ZSInAppPurchaseKit.xcframework.zip) in to your project.
 
 ---
 

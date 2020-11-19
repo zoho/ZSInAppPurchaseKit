@@ -1,4 +1,0 @@
-framework module ZSInAppPurchaseKit {
-  header "ZSInAppPurchaseKit-Swift.h"
-  requires objc
-}

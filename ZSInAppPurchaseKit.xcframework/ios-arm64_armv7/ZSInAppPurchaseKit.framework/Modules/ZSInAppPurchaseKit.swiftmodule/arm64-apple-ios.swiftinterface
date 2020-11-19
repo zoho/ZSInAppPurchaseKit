@@ -1,0 +1,221 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.3.1 (swiftlang-1200.0.39 clang-1200.0.32.6)
+// swift-module-flags: -target arm64-apple-ios9.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name ZSInAppPurchaseKit
+import Foundation
+import StoreKit
+import Swift
+import UIKit
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class ZSConfiguration : ObjectiveC.NSObject {
+  @objc public var apiKey: Swift.String
+  @objc public var zsProductId: Swift.String
+  @objc public var domain: ZSInAppPurchaseKit.ZSDomain
+  @objc public var userId: Swift.String
+  @objc public var emailId: Swift.String
+  @objc public var displayName: Swift.String
+  @objc public init(apiKey: Swift.String, zsProductId: Swift.String, domain: ZSInAppPurchaseKit.ZSDomain)
+  @objc public func setUserInfo(userId: Swift.String, email: Swift.String, displayName: Swift.String)
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @objc public class ZSFileAttachment : ObjectiveC.NSObject {
+  @objc public var data: Foundation.Data
+  @objc public var mimeType: Swift.String
+  @objc public var fileName: Swift.String
+  @objc deinit
+  @objc override dynamic public init()
+}
+@objc public enum ZSDomain : Swift.Int {
+  case usDC
+  case inDC
+  case euDC
+  case auDC
+  public typealias RawValue = Swift.Int
+  public init?(rawValue: Swift.Int)
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public enum ZSPlanInterval : Swift.Int {
+  case weekly
+  case monthly
+  case yearly
+  public typealias RawValue = Swift.Int
+  public init?(rawValue: Swift.Int)
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public enum ZSErrorCode : Swift.Int {
+  case unknown = -1
+  case appStoreUnknown
+  case appStoreClientInvalid
+  case appStorePaymentCancelled
+  case appStorePaymentInvalid
+  case appStorePaymentNotAllowed
+  case appStoreProductNotAvailable
+  case appStoreCloudServicePermissionDenied
+  case appStoreCloudServiceNetworkConnectionFailed
+  case appStoreCloudServiceRevoked
+  case appStorePrivacyAcknowledgementRequired
+  case appStoreUnauthorizedRequestData
+  case appStoreInvalidOfferIdentifier
+  case appStoreInvalidOfferPrice
+  case appStoreInvalidSignature
+  case appStoreMissingOfferParams
+  case zsServerUnknown
+  case noValidPurchasesFound = 2142
+  case purchaseAlreadyProcessed = 2145
+  case invalidAPIKey = 2146
+  case storeConnectivityError = 101
+  case planInactiveInZS = 101019
+  case receiptNotAvailable
+  case configurationMissing
+  public typealias RawValue = Swift.Int
+  public init?(rawValue: Swift.Int)
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers @objc public class ZSError : ObjectiveC.NSObject {
+  @objc public var code: ZSInAppPurchaseKit.ZSErrorCode
+  @objc public var errorCode: Swift.Int
+  @objc public var errorDescription: Swift.String
+  @objc override dynamic public var description: Swift.String {
+    @objc get
+  }
+  @objc deinit
+  @objc override dynamic public init()
+}
+@_inheritsConvenienceInitializers @objc final public class ZSKit : ObjectiveC.NSObject {
+  @objc final public class func initialize(configuration: ZSInAppPurchaseKit.ZSConfiguration)
+  @objc final public class func getPlans(completion: @escaping ([ZSInAppPurchaseKit.ZSPlan], ZSInAppPurchaseKit.ZSError?) -> ())
+  @objc final public class func initiatePurchase(product: StoreKit.SKProduct, customFields: [ZSInAppPurchaseKit.ZSCustomField] = [], completion: @escaping (ZSInAppPurchaseKit.ZSSubscriptionDetail?, ZSInAppPurchaseKit.ZSError?) -> ())
+  @objc final public class func restorePurchase(customFields: [ZSInAppPurchaseKit.ZSCustomField] = [], completion: @escaping (ZSInAppPurchaseKit.ZSSubscriptionDetail?, ZSInAppPurchaseKit.ZSError?) -> ())
+  @objc final public class func setDelegate(delegate: ZSInAppPurchaseKit.ZSKitDelegate)
+  @objc final public class func isUserEligibleForIntroductoryOffer(completion: @escaping (Swift.Bool, ZSInAppPurchaseKit.ZSError?) -> ())
+  @objc final public class func isStorePurchaseAssociatedWithCurrentUser(completion: @escaping (Swift.Bool, Swift.String?, ZSInAppPurchaseKit.ZSError?) -> ())
+  @objc final public class func getPurchaseMetadataFromStore() -> ZSInAppPurchaseKit.ZSFileAttachment?
+  @objc final public class func clearUserInfo()
+  @objc deinit
+  @objc override dynamic public init()
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc final public class ZSSubscriptionDetail : ObjectiveC.NSObject {
+  @objc final public var subscriptionId: Swift.String
+  @objc final public var name: Swift.String
+  @objc final public var subscriptionNumber: Swift.String
+  @objc final public var status: ZSInAppPurchaseKit.ZSSubscriptionDetail.SubscriptionStatus
+  @objc final public var statusFormatted: Swift.String
+  @objc final public var amount: Swift.Double
+  @objc final public var amountFormatted: Swift.String?
+  @objc final public var interval: Swift.Int
+  @objc final public var intervalUnit: ZSInAppPurchaseKit.ZSPlanInterval
+  @objc final public var referenceId: Swift.String
+  @objc final public var productName: Swift.String
+  @objc final public var planName: Swift.String
+  @objc final public var planCode: Swift.String
+  @objc final public var planDescription: Swift.String
+  @objc final public var trialRemainingDays: Swift.Int
+  @objc final public var nextBillingDate: Foundation.Date?
+  @objc final public var nextBillingDateFormatted: Swift.String?
+  @objc final public var cancelledDate: Foundation.Date?
+  @objc final public var cancelledDateFormatted: Swift.String?
+  @objc final public var currentTermEndsDate: Foundation.Date?
+  @objc final public var currentTermEndsDateFormatted: Swift.String?
+  @objc final public var trialStartsDate: Foundation.Date?
+  @objc final public var trialStartsDateFormatted: Swift.String?
+  @objc final public var trialEndsDate: Foundation.Date?
+  @objc final public var trialEndsDateFormatted: Swift.String?
+  @objc final public var nextRetryDate: Foundation.Date?
+  @objc final public var nextRetryDateFormatted: Swift.String?
+  @objc final public var customFields: [ZSInAppPurchaseKit.ZSCustomField]
+  @objc final public var source: ZSInAppPurchaseKit.ZSSubscriptionDetail.SubscriptionSource
+  @objc public enum SubscriptionStatus : Swift.Int {
+    case trial
+    case trialExpired
+    case live
+    case dunning
+    case unpaid
+    case future
+    case nonRenewing
+    case cancelled
+    case expired
+    case inBillingRetry
+    case unknown
+    public typealias RawValue = Swift.Int
+    public init?(rawValue: Swift.Int)
+    public var rawValue: Swift.Int {
+      get
+    }
+  }
+  @objc public enum SubscriptionSource : Swift.Int {
+    case appStore
+    case playStore
+    case app
+    case unknown
+    public typealias RawValue = Swift.Int
+    public init?(rawValue: Swift.Int)
+    public var rawValue: Swift.Int {
+      get
+    }
+  }
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class ZSCustomField : ObjectiveC.NSObject {
+  @objc public var label: Swift.String
+  @objc public var value: Swift.String
+  @objc public var decimalValue: Swift.Double
+  @objc public var isChecked: Swift.Bool
+  @objc public var multiSelectValue: [Swift.String]?
+  @objc public var apiFieldName: Swift.String
+  @objc public var valueFormatted: Swift.String
+  @objc public var dataType: ZSInAppPurchaseKit.ZSCustomField.DataType
+  @objc public var customFieldId: Swift.String
+  @objc public enum DataType : Swift.Int {
+    case string, email, url, phone, number, decimal, amount, percent, date, checkBox, autoNumber, dropDown, attachment, multiSelect, multiline, lookup
+    public typealias RawValue = Swift.Int
+    public init?(rawValue: Swift.Int)
+    public var rawValue: Swift.Int {
+      get
+    }
+  }
+  @objc public init(apiFieldName: Swift.String, value: Swift.String)
+  @objc deinit
+}
+@objc public protocol ZSKitDelegate {
+  @objc func shouldPurchasePromoProduct(product: StoreKit.SKProduct, payment: StoreKit.SKPayment, initiatePurchase: @escaping () -> ())
+  @objc func didSubscriptionDetailsUpdated(subscriptionDetail: ZSInAppPurchaseKit.ZSSubscriptionDetail)
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc final public class ZSPlan : ObjectiveC.NSObject {
+  @objc final public var skProduct: StoreKit.SKProduct?
+  @objc final public var name: Swift.String
+  @objc final public var planDescription: Swift.String
+  @objc final public var planCode: Swift.String
+  @objc final public var isSubscriptionActive: Swift.Bool
+  @objc final public var interval: Swift.Int
+  @objc final public var intervalUnit: ZSInAppPurchaseKit.ZSPlanInterval
+  @objc final public var customFields: [ZSInAppPurchaseKit.ZSCustomField]
+  @objc final public var price: Swift.Double
+  @objc final public var priceFormatted: Swift.String
+  @objc final public var billingCycles: Swift.Int
+  @objc final public var isActive: Swift.Bool {
+    @objc get
+  }
+  @objc deinit
+}
+extension ZSInAppPurchaseKit.ZSDomain : Swift.Equatable {}
+extension ZSInAppPurchaseKit.ZSDomain : Swift.Hashable {}
+extension ZSInAppPurchaseKit.ZSDomain : Swift.RawRepresentable {}
+extension ZSInAppPurchaseKit.ZSPlanInterval : Swift.Equatable {}
+extension ZSInAppPurchaseKit.ZSPlanInterval : Swift.Hashable {}
+extension ZSInAppPurchaseKit.ZSPlanInterval : Swift.RawRepresentable {}
+extension ZSInAppPurchaseKit.ZSErrorCode : Swift.Equatable {}
+extension ZSInAppPurchaseKit.ZSErrorCode : Swift.Hashable {}
+extension ZSInAppPurchaseKit.ZSErrorCode : Swift.RawRepresentable {}
+extension ZSInAppPurchaseKit.ZSSubscriptionDetail.SubscriptionStatus : Swift.Equatable {}
+extension ZSInAppPurchaseKit.ZSSubscriptionDetail.SubscriptionStatus : Swift.Hashable {}
+extension ZSInAppPurchaseKit.ZSSubscriptionDetail.SubscriptionStatus : Swift.RawRepresentable {}
+extension ZSInAppPurchaseKit.ZSSubscriptionDetail.SubscriptionSource : Swift.Equatable {}
+extension ZSInAppPurchaseKit.ZSSubscriptionDetail.SubscriptionSource : Swift.Hashable {}
+extension ZSInAppPurchaseKit.ZSSubscriptionDetail.SubscriptionSource : Swift.RawRepresentable {}
+extension ZSInAppPurchaseKit.ZSCustomField.DataType : Swift.Equatable {}
+extension ZSInAppPurchaseKit.ZSCustomField.DataType : Swift.Hashable {}
+extension ZSInAppPurchaseKit.ZSCustomField.DataType : Swift.RawRepresentable {}

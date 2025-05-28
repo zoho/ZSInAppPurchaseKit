@@ -2,7 +2,7 @@ Pod::Spec.new do |spec|
 
 
   spec.name         = "ZSInAppPurchaseKit"
-  spec.version      = "1.0.2-beta01"
+  spec.version      = "1.0.2"
   spec.homepage     = "https://www.zoho.com/subscriptions"
   spec.summary      = "In App Purchase and subscription management."
 

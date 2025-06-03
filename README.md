@@ -10,27 +10,26 @@ You can bundle our SDK with your Android and iOS apps. The SDK's will facilitate
 Installation
 --
 
-**CocoaPods**
+**Swift Package Manager**
 
-To install ZSInAppPurchaseKit in your XCode project using cocoapods, add the below lines in your Podfile.
+To install ZSInAppPurchaseKit in your Xcode project using SPM, follow the below steps.
 
-```
-use_frameworks!
 
-target '<YOUR_TARGET>' do
-    pod 'ZSInAppPurchaseKit', '1.0.1-beta01'
-end
-```
+- File > Swift Packages > Add Package Dependency...
 
-Then run pod install command in terminal from your project directory.
+- Enter this [repo url](https://github.com/zoho/ZSInAppPurchaseKit.git) in the search box. 
 
-```
-$ pod install
+- Select the version as your requirement and select "Add Package".
+
+Then import the package to your project files.
+
+```swift
+import ZSInAppPurchaseKit
 ```
 
 **ZSInAppPurchaseKit.xcframework**
 
-If you are not using Coocapods in your project you can download and add our [ZSInAppPurchaseKit.xcframework](https://github.com/zoho/ZSInAppPurchaseKit/releases/download/1.0.1-beta01/ZSInAppPurchaseKit.xcframework.zip) in to your project.
+If you are not using Coocapods in your project you can download and add our [ZSInAppPurchaseKit.xcframework](https://github.com/zoho/ZSInAppPurchaseKit/tree/master/ZSInAppPurchaseKit.xcframework) in to your project.
 
 ---
 
@@ -41,7 +40,7 @@ Implementation
 **Initalization**
 
 ```
-let zsConfiguration = ZSConfiguration(apiKey: YOUR_API_KEY, zsProductId: YOUR_PRODUCT_ID, domain: DOMAIN)
+    let zsConfiguration = ZSConfiguration(apiKey: YOUR_API_KEY, zsProductId: YOUR_PRODUCT_ID, domain: DOMAIN)
     zsConfiguration.setUserInfo(userId: APP_USER_ID, email: APP_USER_EMAIL, displayName: APP_USER_DISPLAY_NAME)
     ZSKit.initialize(with: zsConfiguration)
 ```

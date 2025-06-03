@@ -3,9 +3,9 @@
 # ZSInAppPurchaseKit
 Get a unified view of your subscription business and related metrics by syncing your subscription data from various sources like Apple App Store, Google Play Store and your website.
 
-Zoho Subscriptions is a recurring billing platform that helps you manage customer subscriptions and subscription-related finances.
+Zoho Billing is a recurring billing platform that helps you manage customer subscriptions and subscription-related finances.
 
-You can bundle our SDK with your Android and iOS apps. The SDK's will facilitate purchase with the respective app stores. Any new purchase or changes to existing subscription will be automatically synced to your Zoho Subscriptions organisation and will reflect in your metrics.
+You can bundle our SDK with your Android and iOS apps. The SDK's will facilitate purchase with the respective app stores. Any new purchase or changes to existing subscription will be automatically synced to your Zoho Billing organisation and will reflect in your metrics.
 
 Installation
 --
@@ -29,7 +29,7 @@ import ZSInAppPurchaseKit
 
 **ZSInAppPurchaseKit.xcframework**
 
-If you are not using Coocapods in your project you can download and add our [ZSInAppPurchaseKit.xcframework](https://github.com/zoho/ZSInAppPurchaseKit/tree/master/ZSInAppPurchaseKit.xcframework) in to your project.
+If you are not using SPM in your project you can download and add our [ZSInAppPurchaseKit.xcframework](https://github.com/zoho/ZSInAppPurchaseKit/tree/master/ZSInAppPurchaseKit.xcframework) directly in to your project.
 
 ---
 

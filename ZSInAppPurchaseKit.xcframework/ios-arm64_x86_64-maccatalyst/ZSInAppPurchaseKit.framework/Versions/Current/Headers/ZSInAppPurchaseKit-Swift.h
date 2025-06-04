@@ -281,7 +281,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
 @import ObjectiveC;
-@import StoreKit;
 #endif
 
 #endif
@@ -303,18 +302,10 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 #if defined(__OBJC__)
-@class NSString;
 
-@interface SKPaymentTransaction (SWIFT_EXTENSION(ZSInAppPurchaseKit))
-@property (nonatomic, readonly, copy) NSString * _Nonnull description;
-@end
-
-
-/// Configuration of the SDK. This configuration contains the basic data used to make API calls to Zoho Subscriptions’ server.
+/// Configuration of the SDK. This configuration contains the basic data used to make API calls to Zoho Billing’s server.
 SWIFT_CLASS("_TtC18ZSInAppPurchaseKit15ZSConfiguration")
 @interface ZSConfiguration : NSObject
-/// :nodoc:
-@property (nonatomic, readonly, copy) NSString * _Nonnull description;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
@@ -336,26 +327,21 @@ SWIFT_CLASS("_TtC18ZSInAppPurchaseKit16ZSFileAttachment")
 
 SWIFT_CLASS("_TtC18ZSInAppPurchaseKit26ZSIAPProductPurchaseDetail")
 @interface ZSIAPProductPurchaseDetail : NSObject
-/// :nodoc:
-@property (nonatomic, readonly, copy) NSString * _Nonnull description;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
 
-/// The SDK will facilitate purchase with the app store. Any new purchase or changes to existing subscription will be automatically synced to your Zoho Subscriptions organisation and will reflect in your metrics.
+/// The SDK will facilitate purchase with the app store. Any new purchase or changes to existing subscription will be automatically synced to your Zoho Billing organisation and will reflect in your metrics.
 SWIFT_CLASS("_TtC18ZSInAppPurchaseKit5ZSKit")
 @interface ZSKit : NSObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
 
-
 /// Plan object that contains the plan related information entered in Zoho Subscription along with the SKProduct info from App Store.
 SWIFT_CLASS("_TtC18ZSInAppPurchaseKit6ZSPlan")
 @interface ZSPlan : NSObject
-/// :nodoc:
-@property (nonatomic, readonly, copy) NSString * _Nonnull description;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
@@ -364,8 +350,6 @@ SWIFT_CLASS("_TtC18ZSInAppPurchaseKit6ZSPlan")
 /// ZSSubscriptonDetails will have the details of a particular subscription. It will have have the plan related details and the status of the subscription along with the expiry details.
 SWIFT_CLASS("_TtC18ZSInAppPurchaseKit20ZSSubscriptionDetail")
 @interface ZSSubscriptionDetail : NSObject
-/// :nodoc:
-@property (nonatomic, readonly, copy) NSString * _Nonnull description;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
@@ -660,7 +644,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
 @import ObjectiveC;
-@import StoreKit;
 #endif
 
 #endif
@@ -682,18 +665,10 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 #if defined(__OBJC__)
-@class NSString;
 
-@interface SKPaymentTransaction (SWIFT_EXTENSION(ZSInAppPurchaseKit))
-@property (nonatomic, readonly, copy) NSString * _Nonnull description;
-@end
-
-
-/// Configuration of the SDK. This configuration contains the basic data used to make API calls to Zoho Subscriptions’ server.
+/// Configuration of the SDK. This configuration contains the basic data used to make API calls to Zoho Billing’s server.
 SWIFT_CLASS("_TtC18ZSInAppPurchaseKit15ZSConfiguration")
 @interface ZSConfiguration : NSObject
-/// :nodoc:
-@property (nonatomic, readonly, copy) NSString * _Nonnull description;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
@@ -715,26 +690,21 @@ SWIFT_CLASS("_TtC18ZSInAppPurchaseKit16ZSFileAttachment")
 
 SWIFT_CLASS("_TtC18ZSInAppPurchaseKit26ZSIAPProductPurchaseDetail")
 @interface ZSIAPProductPurchaseDetail : NSObject
-/// :nodoc:
-@property (nonatomic, readonly, copy) NSString * _Nonnull description;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
 
-/// The SDK will facilitate purchase with the app store. Any new purchase or changes to existing subscription will be automatically synced to your Zoho Subscriptions organisation and will reflect in your metrics.
+/// The SDK will facilitate purchase with the app store. Any new purchase or changes to existing subscription will be automatically synced to your Zoho Billing organisation and will reflect in your metrics.
 SWIFT_CLASS("_TtC18ZSInAppPurchaseKit5ZSKit")
 @interface ZSKit : NSObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
 
-
 /// Plan object that contains the plan related information entered in Zoho Subscription along with the SKProduct info from App Store.
 SWIFT_CLASS("_TtC18ZSInAppPurchaseKit6ZSPlan")
 @interface ZSPlan : NSObject
-/// :nodoc:
-@property (nonatomic, readonly, copy) NSString * _Nonnull description;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
@@ -743,8 +713,6 @@ SWIFT_CLASS("_TtC18ZSInAppPurchaseKit6ZSPlan")
 /// ZSSubscriptonDetails will have the details of a particular subscription. It will have have the plan related details and the status of the subscription along with the expiry details.
 SWIFT_CLASS("_TtC18ZSInAppPurchaseKit20ZSSubscriptionDetail")
 @interface ZSSubscriptionDetail : NSObject
-/// :nodoc:
-@property (nonatomic, readonly, copy) NSString * _Nonnull description;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 

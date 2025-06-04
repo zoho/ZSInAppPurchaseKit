@@ -92,9 +92,6 @@ public enum ZSErrorCode : Swift.Int {
   public var userId: Swift.String
   public var emailId: Swift.String
   public var displayName: Swift.String
-  @objc override dynamic public var description: Swift.String {
-    @objc get
-  }
   public init(apiKey: Swift.String, zsProductId: Swift.String, domain: ZSInAppPurchaseKit.ZSDomain, enableBetaSetup: Swift.Bool = false)
   public func setUserInfo(userId: Swift.String, email: Swift.String, displayName: Swift.String)
   @objc deinit
@@ -134,9 +131,6 @@ public enum ZSErrorCode : Swift.Int {
   final public var quantity: Swift.String
   final public var purchaseDate: Swift.String
   final public var purchaseDateFormatted: Swift.String
-  @objc override final public var description: Swift.String {
-    @objc get
-  }
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers final public class ZSSubscriptionDetail : ObjectiveC.NSObject {
@@ -164,9 +158,6 @@ public enum ZSErrorCode : Swift.Int {
   final public var nextRetryDate: Foundation.Date?
   final public var nextRetryDateFormatted: Swift.String?
   final public var customFields: [ZSInAppPurchaseKit.ZSCustomField]
-  @objc override final public var description: Swift.String {
-    @objc get
-  }
   final public var name: Swift.String
   final public var intervalUnit: ZSInAppPurchaseKit.ZSPlanInterval
   final public var nextBillingDate: Foundation.Date?
@@ -205,11 +196,6 @@ public enum ZSErrorCode : Swift.Int {
   public init(data: [Swift.String : Any])
   @objc deinit
 }
-extension StoreKit.SKPaymentTransaction {
-  @objc override dynamic open var description: Swift.String {
-    @objc get
-  }
-}
 public protocol ZSKitDelegate {
   func shouldPurchasePromoProduct(product: StoreKit.SKProduct, payment: StoreKit.SKPayment, initiatePurchase: @escaping () -> ())
   func didSubscriptionDetailsUpdated(subscriptionDetail: ZSInAppPurchaseKit.ZSSubscriptionDetail)
@@ -227,9 +213,6 @@ public protocol ZSKitDelegate {
   final public var price: Swift.Double
   final public var priceFormatted: Swift.String
   final public var billingCycles: Swift.Int
-  @objc override final public var description: Swift.String {
-    @objc get
-  }
   final public var isActive: Swift.Bool {
     get
   }
@@ -262,17 +245,6 @@ public typealias ZSUserValidateHandler = ((_ isUserValid: Swift.Bool, _ validUse
 public typealias ZSIntroOfferAvailablityHandler = ((_ isIntroOfferAppliciable: Swift.Bool, _ error: ZSInAppPurchaseKit.ZSError?) -> ())
 public typealias ZSIAPProductsHandler = ((_ products: [StoreKit.SKProduct], _ error: ZSInAppPurchaseKit.ZSError?) -> ())
 public typealias ZSIAPProductsPurchaseHandler = ((_ products: [ZSInAppPurchaseKit.ZSIAPProductPurchaseDetail], _ error: ZSInAppPurchaseKit.ZSError?) -> ())
-public enum ZSServerType : Swift.Int {
-  case idc, local, localtest, devlocal, localinternal, localbeta, devcsezpradeep
-  public init?(rawValue: Swift.Int)
-  public typealias RawValue = Swift.Int
-  public var rawValue: Swift.Int {
-    get
-  }
-}
-extension ZSInAppPurchaseKit.ZSKit {
-  final public class func changeBaseURL(type: ZSInAppPurchaseKit.ZSServerType)
-}
 extension ZSInAppPurchaseKit.ZSDomain : Swift.Equatable {}
 extension ZSInAppPurchaseKit.ZSDomain : Swift.Hashable {}
 extension ZSInAppPurchaseKit.ZSDomain : Swift.RawRepresentable {}
@@ -291,6 +263,3 @@ extension ZSInAppPurchaseKit.ZSSubscriptionDetail.SubscriptionStatus : Swift.Raw
 extension ZSInAppPurchaseKit.ZSSubscriptionDetail.SubscriptionSource : Swift.Equatable {}
 extension ZSInAppPurchaseKit.ZSSubscriptionDetail.SubscriptionSource : Swift.Hashable {}
 extension ZSInAppPurchaseKit.ZSSubscriptionDetail.SubscriptionSource : Swift.RawRepresentable {}
-extension ZSInAppPurchaseKit.ZSServerType : Swift.Equatable {}
-extension ZSInAppPurchaseKit.ZSServerType : Swift.Hashable {}
-extension ZSInAppPurchaseKit.ZSServerType : Swift.RawRepresentable {}

@@ -88,11 +88,12 @@ public enum ZSErrorCode : Swift.Int {
   public var apiKey: Swift.String
   public var zsProductId: Swift.String
   public var domain: ZSInAppPurchaseKit.ZSDomain
+  public var appAppleId: Swift.String
   public var enableBetaSetup: Swift.Bool
   public var userId: Swift.String
   public var emailId: Swift.String
   public var displayName: Swift.String
-  public init(apiKey: Swift.String, zsProductId: Swift.String, domain: ZSInAppPurchaseKit.ZSDomain, enableBetaSetup: Swift.Bool = false)
+  public init(apiKey: Swift.String, zsProductId: Swift.String, domain: ZSInAppPurchaseKit.ZSDomain, appAppleId: Swift.String, enableBetaSetup: Swift.Bool = false)
   public func setUserInfo(userId: Swift.String, email: Swift.String, displayName: Swift.String)
   @objc deinit
 }
@@ -217,6 +218,11 @@ public protocol ZSKitDelegate {
     get
   }
   @objc deinit
+}
+extension StoreKit.Transaction {
+  public var originalTransactionId: Swift.String {
+    get
+  }
 }
 @objc @_inheritsConvenienceInitializers final public class ZSKit : ObjectiveC.NSObject {
   final public class func initialize(configuration: ZSInAppPurchaseKit.ZSConfiguration)

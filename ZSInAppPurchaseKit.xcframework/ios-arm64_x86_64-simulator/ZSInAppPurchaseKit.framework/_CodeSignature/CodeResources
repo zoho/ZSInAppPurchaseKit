@@ -14,47 +14,47 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		rUn2j8PxcGuUiVFW4eD9YrNn1gM=
+		fzKQSUXmmCVJ5SdpcHGEUumCFLs=
 		</data>
 		<key>Modules/ZSInAppPurchaseKit.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		OUvHseh07jR1oUK1IpSzHKOfS2k=
+		fltVfwSBWrcNfAjuUrDAl344hX0=
 		</data>
 		<key>Modules/ZSInAppPurchaseKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		KlEMGqLVTmiPhR1v8mMovJk1TTQ=
+		WxVhy20zHg3nnQ5LVR8RusKrMc8=
 		</data>
 		<key>Modules/ZSInAppPurchaseKit.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		TXzaHw4QnWEPg6bUXgFvWZvwrwM=
+		MhR+2xiLNROmVhMKAIb7H+Lqxsc=
 		</data>
 		<key>Modules/ZSInAppPurchaseKit.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		KlEMGqLVTmiPhR1v8mMovJk1TTQ=
+		WxVhy20zHg3nnQ5LVR8RusKrMc8=
 		</data>
 		<key>Modules/ZSInAppPurchaseKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		kJ6BFJGv9OzGGKA8nTlS0TmtRBg=
+		D/jb8dh2oX4pYiJcQCH6+YTmWLw=
 		</data>
 		<key>Modules/ZSInAppPurchaseKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		OUvHseh07jR1oUK1IpSzHKOfS2k=
+		fltVfwSBWrcNfAjuUrDAl344hX0=
 		</data>
 		<key>Modules/ZSInAppPurchaseKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		lFXxK1vGpM3KEf6q7PEKoDbktZo=
+		Z0Gd/njMZle8JSM0Eu3hFdebsnE=
 		</data>
 		<key>Modules/ZSInAppPurchaseKit.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		8IJc7Is1gTAiC4m7bTOWLxAN/Hw=
+		yW+cncpSLOabWDFYSYK4ufbFfoI=
 		</data>
 		<key>Modules/ZSInAppPurchaseKit.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		lFXxK1vGpM3KEf6q7PEKoDbktZo=
+		Z0Gd/njMZle8JSM0Eu3hFdebsnE=
 		</data>
 		<key>Modules/ZSInAppPurchaseKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		e4IgqnJdF9fbUsbUkWiYQvJgMME=
+		Kr9svSWFhQ+9m6gr/35B4oWBSbQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -81,70 +81,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			w+LCPjUDjYPxmfTjHqRlBDFOFge3Aq+nSPXeAxoC2qM=
+			oHRwXp5GL8P67cHpcPAe7eB6m78FKswm/GYu1Y1IvMg=
 			</data>
 		</dict>
 		<key>Modules/ZSInAppPurchaseKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kxXU8Z9Goujoc9Ozkk8HxQ3piJ5MeiZHriIBB5cVwYs=
+			aOBV9ge0ALhF2J5FKAO3CzqAmZixbvynV68r8SN6X9Y=
 			</data>
 		</dict>
 		<key>Modules/ZSInAppPurchaseKit.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IOsFzHyy4M5f5RW4ISQsBe/4yBTSq/YliVkdlRK/ijI=
+			Eb9K65jEmyqwtHHrU9/NyIRhludPxbHgMG4cXM3XtLk=
 			</data>
 		</dict>
 		<key>Modules/ZSInAppPurchaseKit.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kxXU8Z9Goujoc9Ozkk8HxQ3piJ5MeiZHriIBB5cVwYs=
+			aOBV9ge0ALhF2J5FKAO3CzqAmZixbvynV68r8SN6X9Y=
 			</data>
 		</dict>
 		<key>Modules/ZSInAppPurchaseKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			i2MXRzFUHTGU3FulDKwhLvFp2y913nS/3HunaMeTo08=
+			NckNUpzuOH+ifwABhqgXvK2herviPEWEZYDfWntt1aU=
 			</data>
 		</dict>
 		<key>Modules/ZSInAppPurchaseKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			w+LCPjUDjYPxmfTjHqRlBDFOFge3Aq+nSPXeAxoC2qM=
+			oHRwXp5GL8P67cHpcPAe7eB6m78FKswm/GYu1Y1IvMg=
 			</data>
 		</dict>
 		<key>Modules/ZSInAppPurchaseKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			de/gyTvIalVMeuxVjNGHys/ByRhvuGzhsJwcRLfjyjY=
+			Tt8V/ysU4FiRrJfggpsX55q5yagZ9REqOGleZdm589A=
 			</data>
 		</dict>
 		<key>Modules/ZSInAppPurchaseKit.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vHrgLVxZzricjLXtT2K0GtIVAburlDK0VH80Hz0/Bw8=
+			xA7vCID8GFa8bNr0SzJy/V0PElE+6j/Hhix68TztOZA=
 			</data>
 		</dict>
 		<key>Modules/ZSInAppPurchaseKit.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			de/gyTvIalVMeuxVjNGHys/ByRhvuGzhsJwcRLfjyjY=
+			Tt8V/ysU4FiRrJfggpsX55q5yagZ9REqOGleZdm589A=
 			</data>
 		</dict>
 		<key>Modules/ZSInAppPurchaseKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HUstd7zM9mFTYwJUhUGnPnGSDdRr6LrcatyO2ym2YZM=
+			9svyVRfOA2xM7+QTsTgaQizw1radUzVH1gwNyxLaWfg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

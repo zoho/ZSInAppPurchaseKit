@@ -114,6 +114,21 @@ public enum ZSErrorCode : Swift.Int {
   public var transaction: StoreKit.Transaction
   @objc deinit
 }
+public struct ZSCustomFieldFilter {
+  public enum MatchType : Swift.String {
+    case contains
+    public init?(rawValue: Swift.String)
+    public typealias RawValue = Swift.String
+    public var rawValue: Swift.String {
+      get
+    }
+  }
+  public let fieldAPIName: Swift.String
+  public let filterValue: Swift.String
+  public let matchType: ZSInAppPurchaseKit.ZSCustomFieldFilter.MatchType
+  public init(fieldAPIName: Swift.String, filterValue: Swift.String, matchType: ZSInAppPurchaseKit.ZSCustomFieldFilter.MatchType)
+  public init(fieldAPIName: Swift.String, filterValue: Swift.String)
+}
 @_hasMissingDesignatedInitializers public class ZSError : Swift.Error {
   public var code: ZSInAppPurchaseKit.ZSErrorCode
   public var errorCode: Swift.Int
@@ -226,7 +241,9 @@ extension StoreKit.Transaction {
 }
 @objc @_inheritsConvenienceInitializers final public class ZSKit : ObjectiveC.NSObject {
   final public class func initialize(configuration: ZSInAppPurchaseKit.ZSConfiguration)
-  final public class func getPlans(completion: @escaping ZSInAppPurchaseKit.ZSPlansHandler)
+  final public class func getPlans(customFilters: [ZSInAppPurchaseKit.ZSCustomFieldFilter] = [], completion: @escaping ZSInAppPurchaseKit.ZSPlansHandler)
+  final public class func getStoreKitProducts(productIDs: [Swift.String], completion: @escaping ZSInAppPurchaseKit.ZSSKProductsHandler)
+  final public class func getStoreKitProducts(productIDs: [Swift.String]) async -> Swift.Result<[StoreKit.Product], ZSInAppPurchaseKit.ZSError>
   final public class func getIAPProducts(productIDs: [Swift.String], completion: @escaping ZSInAppPurchaseKit.ZSIAPProductsHandler)
   final public class func initiatePurchase(product: StoreKit.Product, customFields: [ZSInAppPurchaseKit.ZSCustomField] = [], completion: @escaping ZSInAppPurchaseKit.ZSPurchaseHandler)
   final public class func restorePurchase(customFields: [ZSInAppPurchaseKit.ZSCustomField] = [], completion: @escaping ZSInAppPurchaseKit.ZSPurchaseHandler)
@@ -250,6 +267,7 @@ public typealias ZSRestorePurchaseHandler = ((_ response: [ZSInAppPurchaseKit.ZS
 public typealias ZSUserValidateHandler = ((_ isUserValid: Swift.Bool, _ validUserForReceipt: Swift.String?, _ error: ZSInAppPurchaseKit.ZSError?) -> ())
 public typealias ZSIntroOfferAvailablityHandler = ((_ isIntroOfferAppliciable: Swift.Bool, _ error: ZSInAppPurchaseKit.ZSError?) -> ())
 public typealias ZSIAPProductsHandler = ((_ products: [StoreKit.SKProduct], _ error: ZSInAppPurchaseKit.ZSError?) -> ())
+public typealias ZSSKProductsHandler = ((Swift.Result<[StoreKit.Product], ZSInAppPurchaseKit.ZSError>) -> ())
 public typealias ZSIAPProductsPurchaseHandler = ((_ products: [ZSInAppPurchaseKit.ZSIAPProductPurchaseDetail], _ error: ZSInAppPurchaseKit.ZSError?) -> ())
 extension ZSInAppPurchaseKit.ZSDomain : Swift.Equatable {}
 extension ZSInAppPurchaseKit.ZSDomain : Swift.Hashable {}
@@ -263,6 +281,9 @@ extension ZSInAppPurchaseKit.ZSErrorCode : Swift.RawRepresentable {}
 extension ZSInAppPurchaseKit.ZSCustomField.DataType : Swift.Equatable {}
 extension ZSInAppPurchaseKit.ZSCustomField.DataType : Swift.Hashable {}
 extension ZSInAppPurchaseKit.ZSCustomField.DataType : Swift.RawRepresentable {}
+extension ZSInAppPurchaseKit.ZSCustomFieldFilter.MatchType : Swift.Equatable {}
+extension ZSInAppPurchaseKit.ZSCustomFieldFilter.MatchType : Swift.Hashable {}
+extension ZSInAppPurchaseKit.ZSCustomFieldFilter.MatchType : Swift.RawRepresentable {}
 extension ZSInAppPurchaseKit.ZSSubscriptionDetail.SubscriptionStatus : Swift.Equatable {}
 extension ZSInAppPurchaseKit.ZSSubscriptionDetail.SubscriptionStatus : Swift.Hashable {}
 extension ZSInAppPurchaseKit.ZSSubscriptionDetail.SubscriptionStatus : Swift.RawRepresentable {}

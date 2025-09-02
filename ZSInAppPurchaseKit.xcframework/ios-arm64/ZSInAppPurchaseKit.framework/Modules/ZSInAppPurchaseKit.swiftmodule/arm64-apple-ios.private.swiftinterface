@@ -63,6 +63,14 @@ public enum ZSErrorCode : Swift.Int {
     get
   }
 }
+public struct ZSPromotionalOfferSignature {
+  public var offerID: Swift.String
+  public var signature: Foundation.Data
+  public var keyID: Swift.String
+  public var nonce: Foundation.UUID
+  public var timestamp: Swift.Int
+  public init(offerID: Swift.String, signature: Foundation.Data, keyID: Swift.String, nonce: Foundation.UUID, timestamp: Swift.Int)
+}
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class ZSCustomField : ObjectiveC.NSObject {
   public var label: Swift.String
   public var value: Swift.String
@@ -245,7 +253,7 @@ extension StoreKit.Transaction {
   final public class func getStoreKitProducts(productIDs: [Swift.String], completion: @escaping ZSInAppPurchaseKit.ZSSKProductsHandler)
   final public class func getStoreKitProducts(productIDs: [Swift.String]) async -> Swift.Result<[StoreKit.Product], ZSInAppPurchaseKit.ZSError>
   final public class func getIAPProducts(productIDs: [Swift.String], completion: @escaping ZSInAppPurchaseKit.ZSIAPProductsHandler)
-  final public class func initiatePurchase(product: StoreKit.Product, customFields: [ZSInAppPurchaseKit.ZSCustomField] = [], completion: @escaping ZSInAppPurchaseKit.ZSPurchaseHandler)
+  final public class func initiatePurchase(product: StoreKit.Product, prmotionalOfferDetails: ZSInAppPurchaseKit.ZSPromotionalOfferSignature? = nil, customFields: [ZSInAppPurchaseKit.ZSCustomField] = [], completion: @escaping ZSInAppPurchaseKit.ZSPurchaseHandler)
   final public class func restorePurchase(customFields: [ZSInAppPurchaseKit.ZSCustomField] = [], completion: @escaping ZSInAppPurchaseKit.ZSPurchaseHandler)
   final public class func restorePurchase(customFields: [ZSInAppPurchaseKit.ZSCustomField], completion: @escaping ZSInAppPurchaseKit.ZSRestorePurchaseHandler)
   final public class func restoreSubscription(transaction: StoreKit.Transaction, customFields: [ZSInAppPurchaseKit.ZSCustomField], completion: @escaping ZSInAppPurchaseKit.ZSPurchaseHandler)

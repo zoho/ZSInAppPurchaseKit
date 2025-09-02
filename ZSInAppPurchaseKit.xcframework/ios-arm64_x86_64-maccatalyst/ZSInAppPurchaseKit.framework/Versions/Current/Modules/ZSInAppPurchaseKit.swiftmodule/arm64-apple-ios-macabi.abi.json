@@ -1763,6 +1763,534 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "StoreKit",
+        "printedName": "StoreKit",
+        "declKind": "Import",
+        "moduleName": "ZSInAppPurchaseKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ZSPromotionalOfferSignature",
+        "printedName": "ZSPromotionalOfferSignature",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "offerID",
+            "printedName": "offerID",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18ZSInAppPurchaseKit27ZSPromotionalOfferSignatureV7offerIDSSvp",
+            "mangledName": "$s18ZSInAppPurchaseKit27ZSPromotionalOfferSignatureV7offerIDSSvp",
+            "moduleName": "ZSInAppPurchaseKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18ZSInAppPurchaseKit27ZSPromotionalOfferSignatureV7offerIDSSvg",
+                "mangledName": "$s18ZSInAppPurchaseKit27ZSPromotionalOfferSignatureV7offerIDSSvg",
+                "moduleName": "ZSInAppPurchaseKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18ZSInAppPurchaseKit27ZSPromotionalOfferSignatureV7offerIDSSvs",
+                "mangledName": "$s18ZSInAppPurchaseKit27ZSPromotionalOfferSignatureV7offerIDSSvs",
+                "moduleName": "ZSInAppPurchaseKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18ZSInAppPurchaseKit27ZSPromotionalOfferSignatureV7offerIDSSvM",
+                "mangledName": "$s18ZSInAppPurchaseKit27ZSPromotionalOfferSignatureV7offerIDSSvM",
+                "moduleName": "ZSInAppPurchaseKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "signature",
+            "printedName": "signature",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18ZSInAppPurchaseKit27ZSPromotionalOfferSignatureV9signature10Foundation4DataVvp",
+            "mangledName": "$s18ZSInAppPurchaseKit27ZSPromotionalOfferSignatureV9signature10Foundation4DataVvp",
+            "moduleName": "ZSInAppPurchaseKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18ZSInAppPurchaseKit27ZSPromotionalOfferSignatureV9signature10Foundation4DataVvg",
+                "mangledName": "$s18ZSInAppPurchaseKit27ZSPromotionalOfferSignatureV9signature10Foundation4DataVvg",
+                "moduleName": "ZSInAppPurchaseKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18ZSInAppPurchaseKit27ZSPromotionalOfferSignatureV9signature10Foundation4DataVvs",
+                "mangledName": "$s18ZSInAppPurchaseKit27ZSPromotionalOfferSignatureV9signature10Foundation4DataVvs",
+                "moduleName": "ZSInAppPurchaseKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18ZSInAppPurchaseKit27ZSPromotionalOfferSignatureV9signature10Foundation4DataVvM",
+                "mangledName": "$s18ZSInAppPurchaseKit27ZSPromotionalOfferSignatureV9signature10Foundation4DataVvM",
+                "moduleName": "ZSInAppPurchaseKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "keyID",
+            "printedName": "keyID",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18ZSInAppPurchaseKit27ZSPromotionalOfferSignatureV5keyIDSSvp",
+            "mangledName": "$s18ZSInAppPurchaseKit27ZSPromotionalOfferSignatureV5keyIDSSvp",
+            "moduleName": "ZSInAppPurchaseKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18ZSInAppPurchaseKit27ZSPromotionalOfferSignatureV5keyIDSSvg",
+                "mangledName": "$s18ZSInAppPurchaseKit27ZSPromotionalOfferSignatureV5keyIDSSvg",
+                "moduleName": "ZSInAppPurchaseKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18ZSInAppPurchaseKit27ZSPromotionalOfferSignatureV5keyIDSSvs",
+                "mangledName": "$s18ZSInAppPurchaseKit27ZSPromotionalOfferSignatureV5keyIDSSvs",
+                "moduleName": "ZSInAppPurchaseKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18ZSInAppPurchaseKit27ZSPromotionalOfferSignatureV5keyIDSSvM",
+                "mangledName": "$s18ZSInAppPurchaseKit27ZSPromotionalOfferSignatureV5keyIDSSvM",
+                "moduleName": "ZSInAppPurchaseKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "nonce",
+            "printedName": "nonce",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UUID",
+                "printedName": "Foundation.UUID",
+                "usr": "s:10Foundation4UUIDV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18ZSInAppPurchaseKit27ZSPromotionalOfferSignatureV5nonce10Foundation4UUIDVvp",
+            "mangledName": "$s18ZSInAppPurchaseKit27ZSPromotionalOfferSignatureV5nonce10Foundation4UUIDVvp",
+            "moduleName": "ZSInAppPurchaseKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UUID",
+                    "printedName": "Foundation.UUID",
+                    "usr": "s:10Foundation4UUIDV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18ZSInAppPurchaseKit27ZSPromotionalOfferSignatureV5nonce10Foundation4UUIDVvg",
+                "mangledName": "$s18ZSInAppPurchaseKit27ZSPromotionalOfferSignatureV5nonce10Foundation4UUIDVvg",
+                "moduleName": "ZSInAppPurchaseKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UUID",
+                    "printedName": "Foundation.UUID",
+                    "usr": "s:10Foundation4UUIDV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18ZSInAppPurchaseKit27ZSPromotionalOfferSignatureV5nonce10Foundation4UUIDVvs",
+                "mangledName": "$s18ZSInAppPurchaseKit27ZSPromotionalOfferSignatureV5nonce10Foundation4UUIDVvs",
+                "moduleName": "ZSInAppPurchaseKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18ZSInAppPurchaseKit27ZSPromotionalOfferSignatureV5nonce10Foundation4UUIDVvM",
+                "mangledName": "$s18ZSInAppPurchaseKit27ZSPromotionalOfferSignatureV5nonce10Foundation4UUIDVvM",
+                "moduleName": "ZSInAppPurchaseKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "timestamp",
+            "printedName": "timestamp",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18ZSInAppPurchaseKit27ZSPromotionalOfferSignatureV9timestampSivp",
+            "mangledName": "$s18ZSInAppPurchaseKit27ZSPromotionalOfferSignatureV9timestampSivp",
+            "moduleName": "ZSInAppPurchaseKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18ZSInAppPurchaseKit27ZSPromotionalOfferSignatureV9timestampSivg",
+                "mangledName": "$s18ZSInAppPurchaseKit27ZSPromotionalOfferSignatureV9timestampSivg",
+                "moduleName": "ZSInAppPurchaseKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18ZSInAppPurchaseKit27ZSPromotionalOfferSignatureV9timestampSivs",
+                "mangledName": "$s18ZSInAppPurchaseKit27ZSPromotionalOfferSignatureV9timestampSivs",
+                "moduleName": "ZSInAppPurchaseKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18ZSInAppPurchaseKit27ZSPromotionalOfferSignatureV9timestampSivM",
+                "mangledName": "$s18ZSInAppPurchaseKit27ZSPromotionalOfferSignatureV9timestampSivM",
+                "moduleName": "ZSInAppPurchaseKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(offerID:signature:keyID:nonce:timestamp:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ZSPromotionalOfferSignature",
+                "printedName": "ZSInAppPurchaseKit.ZSPromotionalOfferSignature",
+                "usr": "s:18ZSInAppPurchaseKit27ZSPromotionalOfferSignatureV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UUID",
+                "printedName": "Foundation.UUID",
+                "usr": "s:10Foundation4UUIDV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:18ZSInAppPurchaseKit27ZSPromotionalOfferSignatureV7offerID9signature03keyI05nonce9timestampACSS_10Foundation4DataVSSAI4UUIDVSitcfc",
+            "mangledName": "$s18ZSInAppPurchaseKit27ZSPromotionalOfferSignatureV7offerID9signature03keyI05nonce9timestampACSS_10Foundation4DataVSSAI4UUIDVSitcfc",
+            "moduleName": "ZSInAppPurchaseKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:18ZSInAppPurchaseKit27ZSPromotionalOfferSignatureV",
+        "mangledName": "$s18ZSInAppPurchaseKit27ZSPromotionalOfferSignatureV",
+        "moduleName": "ZSInAppPurchaseKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZSInAppPurchaseKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "TypeDecl",
         "name": "ZSCustomField",
         "printedName": "ZSCustomField",
@@ -12710,7 +13238,7 @@
           {
             "kind": "Function",
             "name": "initiatePurchase",
-            "printedName": "initiatePurchase(product:customFields:completion:)",
+            "printedName": "initiatePurchase(product:prmotionalOfferDetails:customFields:completion:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -12722,6 +13250,21 @@
                 "name": "Product",
                 "printedName": "StoreKit.Product",
                 "usr": "s:8StoreKit7ProductV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "ZSInAppPurchaseKit.ZSPromotionalOfferSignature?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ZSPromotionalOfferSignature",
+                    "printedName": "ZSInAppPurchaseKit.ZSPromotionalOfferSignature",
+                    "usr": "s:18ZSInAppPurchaseKit27ZSPromotionalOfferSignatureV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               },
               {
                 "kind": "TypeNominal",
@@ -12787,8 +13330,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:18ZSInAppPurchaseKit5ZSKitC08initiateC07product12customFields10completiony05StoreD07ProductV_SayAA13ZSCustomFieldCGyAA20ZSSubscriptionDetailCSg_AA7ZSErrorCSgtctFZ",
-            "mangledName": "$s18ZSInAppPurchaseKit5ZSKitC08initiateC07product12customFields10completiony05StoreD07ProductV_SayAA13ZSCustomFieldCGyAA20ZSSubscriptionDetailCSg_AA7ZSErrorCSgtctFZ",
+            "usr": "s:18ZSInAppPurchaseKit5ZSKitC08initiateC07product22prmotionalOfferDetails12customFields10completiony05StoreD07ProductV_AA013ZSPromotionalI9SignatureVSgSayAA13ZSCustomFieldCGyAA20ZSSubscriptionDetailCSg_AA7ZSErrorCSgtctFZ",
+            "mangledName": "$s18ZSInAppPurchaseKit5ZSKitC08initiateC07product22prmotionalOfferDetails12customFields10completiony05StoreD07ProductV_AA013ZSPromotionalI9SignatureVSgSayAA13ZSCustomFieldCGyAA20ZSSubscriptionDetailCSg_AA7ZSErrorCSgtctFZ",
             "moduleName": "ZSInAppPurchaseKit",
             "static": true,
             "declAttributes": [
@@ -13710,1150 +14253,1157 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitEnumerations.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitEnumerations.swift",
       "kind": "StringLiteral",
       "offset": 234,
       "length": 6,
       "value": "\"POST\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitEnumerations.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitEnumerations.swift",
       "kind": "StringLiteral",
       "offset": 248,
       "length": 5,
       "value": "\"PUT\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitEnumerations.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitEnumerations.swift",
       "kind": "StringLiteral",
       "offset": 261,
       "length": 5,
       "value": "\"GET\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitEnumerations.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitEnumerations.swift",
       "kind": "StringLiteral",
       "offset": 277,
       "length": 8,
       "value": "\"DELETE\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitEnumerations.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitEnumerations.swift",
       "kind": "IntegerLiteral",
       "offset": 575,
       "length": 4,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitEnumerations.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitEnumerations.swift",
       "kind": "IntegerLiteral",
       "offset": 643,
       "length": 4,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitEnumerations.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitEnumerations.swift",
       "kind": "IntegerLiteral",
       "offset": 715,
       "length": 4,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitEnumerations.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitEnumerations.swift",
       "kind": "IntegerLiteral",
       "offset": 1269,
       "length": 7,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitEnumerations.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitEnumerations.swift",
       "kind": "IntegerLiteral",
       "offset": 1286,
       "length": 6,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitEnumerations.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitEnumerations.swift",
       "kind": "IntegerLiteral",
       "offset": 1813,
       "length": 2,
       "value": "-1"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitEnumerations.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitEnumerations.swift",
       "kind": "IntegerLiteral",
       "offset": 1970,
       "length": 15,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitEnumerations.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitEnumerations.swift",
       "kind": "IntegerLiteral",
       "offset": 2088,
       "length": 21,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitEnumerations.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitEnumerations.swift",
       "kind": "IntegerLiteral",
       "offset": 2190,
       "length": 24,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitEnumerations.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitEnumerations.swift",
       "kind": "IntegerLiteral",
       "offset": 2325,
       "length": 22,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitEnumerations.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitEnumerations.swift",
       "kind": "IntegerLiteral",
       "offset": 2438,
       "length": 25,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitEnumerations.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitEnumerations.swift",
       "kind": "IntegerLiteral",
       "offset": 2560,
       "length": 27,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitEnumerations.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitEnumerations.swift",
       "kind": "IntegerLiteral",
       "offset": 2693,
       "length": 36,
       "value": "6"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitEnumerations.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitEnumerations.swift",
       "kind": "IntegerLiteral",
       "offset": 2818,
       "length": 43,
       "value": "7"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitEnumerations.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitEnumerations.swift",
       "kind": "IntegerLiteral",
       "offset": 2964,
       "length": 27,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitEnumerations.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitEnumerations.swift",
       "kind": "IntegerLiteral",
       "offset": 3111,
       "length": 38,
       "value": "9"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitEnumerations.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitEnumerations.swift",
       "kind": "IntegerLiteral",
       "offset": 3286,
       "length": 31,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitEnumerations.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitEnumerations.swift",
       "kind": "IntegerLiteral",
       "offset": 3394,
       "length": 30,
       "value": "11"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitEnumerations.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitEnumerations.swift",
       "kind": "IntegerLiteral",
       "offset": 3533,
       "length": 25,
       "value": "12"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitEnumerations.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitEnumerations.swift",
       "kind": "IntegerLiteral",
       "offset": 3652,
       "length": 24,
       "value": "13"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitEnumerations.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitEnumerations.swift",
       "kind": "IntegerLiteral",
       "offset": 3766,
       "length": 26,
       "value": "14"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitEnumerations.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitEnumerations.swift",
       "kind": "IntegerLiteral",
       "offset": 3935,
       "length": 15,
       "value": "15"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitEnumerations.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitEnumerations.swift",
       "kind": "IntegerLiteral",
       "offset": 4069,
       "length": 4,
       "value": "2142"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitEnumerations.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitEnumerations.swift",
       "kind": "IntegerLiteral",
       "offset": 4217,
       "length": 4,
       "value": "2145"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitEnumerations.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitEnumerations.swift",
       "kind": "IntegerLiteral",
       "offset": 4342,
       "length": 4,
       "value": "2146"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitEnumerations.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitEnumerations.swift",
       "kind": "IntegerLiteral",
       "offset": 4508,
       "length": 3,
       "value": "101"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitEnumerations.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitEnumerations.swift",
       "kind": "IntegerLiteral",
       "offset": 4612,
       "length": 6,
       "value": "101019"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitEnumerations.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitEnumerations.swift",
       "kind": "IntegerLiteral",
       "offset": 4778,
       "length": 19,
       "value": "101020"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitEnumerations.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitEnumerations.swift",
       "kind": "IntegerLiteral",
       "offset": 5022,
       "length": 20,
       "value": "101021"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitEnumerations.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitEnumerations.swift",
       "kind": "IntegerLiteral",
       "offset": 5427,
       "length": 22,
       "value": "101022"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitEnumerations.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitEnumerations.swift",
       "kind": "IntegerLiteral",
       "offset": 5539,
       "length": 29,
       "value": "101023"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSCustomField.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSCustomField.swift",
       "kind": "StringLiteral",
       "offset": 303,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSCustomField.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSCustomField.swift",
       "kind": "StringLiteral",
       "offset": 364,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSCustomField.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSCustomField.swift",
       "kind": "IntegerLiteral",
       "offset": 405,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSCustomField.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSCustomField.swift",
       "kind": "BooleanLiteral",
       "offset": 440,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSCustomField.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSCustomField.swift",
       "kind": "StringLiteral",
       "offset": 534,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSCustomField.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSCustomField.swift",
       "kind": "StringLiteral",
       "offset": 577,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSCustomField.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSCustomField.swift",
       "kind": "StringLiteral",
       "offset": 720,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSCustomField.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSCustomField.swift",
       "kind": "IntegerLiteral",
       "offset": 781,
       "length": 5,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSCustomField.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSCustomField.swift",
       "kind": "IntegerLiteral",
       "offset": 788,
       "length": 3,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSCustomField.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSCustomField.swift",
       "kind": "IntegerLiteral",
       "offset": 793,
       "length": 5,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSCustomField.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSCustomField.swift",
       "kind": "IntegerLiteral",
       "offset": 800,
       "length": 6,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSCustomField.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSCustomField.swift",
       "kind": "IntegerLiteral",
       "offset": 808,
       "length": 7,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSCustomField.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSCustomField.swift",
       "kind": "IntegerLiteral",
       "offset": 817,
       "length": 6,
       "value": "6"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSCustomField.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSCustomField.swift",
       "kind": "IntegerLiteral",
       "offset": 825,
       "length": 7,
       "value": "7"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSCustomField.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSCustomField.swift",
       "kind": "IntegerLiteral",
       "offset": 834,
       "length": 4,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSCustomField.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSCustomField.swift",
       "kind": "IntegerLiteral",
       "offset": 840,
       "length": 8,
       "value": "9"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSCustomField.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSCustomField.swift",
       "kind": "IntegerLiteral",
       "offset": 850,
       "length": 10,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSCustomField.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSCustomField.swift",
       "kind": "IntegerLiteral",
       "offset": 862,
       "length": 8,
       "value": "11"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSCustomField.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSCustomField.swift",
       "kind": "IntegerLiteral",
       "offset": 872,
       "length": 10,
       "value": "12"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSCustomField.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSCustomField.swift",
       "kind": "IntegerLiteral",
       "offset": 884,
       "length": 11,
       "value": "13"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSCustomField.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSCustomField.swift",
       "kind": "IntegerLiteral",
       "offset": 897,
       "length": 9,
       "value": "14"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSCustomField.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSCustomField.swift",
       "kind": "IntegerLiteral",
       "offset": 908,
       "length": 6,
       "value": "15"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSConfiguration.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 901,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSConfiguration.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 1003,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSConfiguration.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 1276,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSConfiguration.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSConfiguration.swift",
       "kind": "BooleanLiteral",
       "offset": 1536,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSConfiguration.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 1717,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSConfiguration.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 1871,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSConfiguration.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 2040,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSConfiguration.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSConfiguration.swift",
       "kind": "BooleanLiteral",
       "offset": 3410,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/native\/ZSKit\/ZSKit\/ZSAPIHandler.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/native\/ZSKit\/ZSKit\/ZSAPIHandler.swift",
       "kind": "Array",
       "offset": 1823,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/native\/ZSKit\/ZSKit\/ZSAPIHandler.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/native\/ZSKit\/ZSKit\/ZSAPIHandler.swift",
       "kind": "Array",
       "offset": 19140,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/native\/ZSKit\/ZSKit\/ZSKitNetworkHandler.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/native\/ZSKit\/ZSKit\/ZSKitNetworkHandler.swift",
       "kind": "BooleanLiteral",
       "offset": 3496,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitErrorHandler.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitErrorHandler.swift",
       "kind": "StringLiteral",
       "offset": 623,
       "length": 24,
       "value": "\"Unknown error occured.\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitErrorHandler.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitErrorHandler.swift",
       "kind": "StringLiteral",
       "offset": 697,
       "length": 24,
       "value": "\"Unknown error occured.\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitErrorHandler.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitErrorHandler.swift",
       "kind": "StringLiteral",
       "offset": 790,
       "length": 24,
       "value": "\"Unknown error occured.\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitErrorHandler.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitErrorHandler.swift",
       "kind": "StringLiteral",
       "offset": 1115,
       "length": 24,
       "value": "\"Receipt not available.\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitErrorHandler.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitErrorHandler.swift",
       "kind": "StringLiteral",
       "offset": 1227,
       "length": 153,
       "value": "\"If some of the configurations not given in the initalizer this error will be thrown. Other functions have to be called after intialize of the SDK only.\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitErrorHandler.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitErrorHandler.swift",
       "kind": "StringLiteral",
       "offset": 1482,
       "length": 38,
       "value": "\"There are no active purchases found.\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitErrorHandler.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitErrorHandler.swift",
       "kind": "StringLiteral",
       "offset": 1614,
       "length": 32,
       "value": "\"User has canceled the payment.\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitErrorHandler.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitErrorHandler.swift",
       "kind": "StringLiteral",
       "offset": 1742,
       "length": 43,
       "value": "\"Payment is pending for additional action.\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitErrorHandler.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitErrorHandler.swift",
       "kind": "StringLiteral",
       "offset": 1886,
       "length": 38,
       "value": "\"App Store transaction is unverified.\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitErrorHandler.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitErrorHandler.swift",
       "kind": "IntegerLiteral",
       "offset": 2217,
       "length": 2,
       "value": "-1"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSIAPProductPurchaseDetail.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/StoreKit\/ZFStoreKitController.swift",
+      "kind": "Array",
+      "offset": 586,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSIAPProductPurchaseDetail.swift",
       "kind": "StringLiteral",
       "offset": 297,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSIAPProductPurchaseDetail.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSIAPProductPurchaseDetail.swift",
       "kind": "StringLiteral",
       "offset": 364,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSIAPProductPurchaseDetail.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSIAPProductPurchaseDetail.swift",
       "kind": "StringLiteral",
       "offset": 446,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSIAPProductPurchaseDetail.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSIAPProductPurchaseDetail.swift",
       "kind": "StringLiteral",
       "offset": 524,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSIAPProductPurchaseDetail.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSIAPProductPurchaseDetail.swift",
       "kind": "StringLiteral",
       "offset": 602,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSIAPProductPurchaseDetail.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSIAPProductPurchaseDetail.swift",
       "kind": "StringLiteral",
       "offset": 669,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSIAPProductPurchaseDetail.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSIAPProductPurchaseDetail.swift",
       "kind": "StringLiteral",
       "offset": 736,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSIAPProductPurchaseDetail.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSIAPProductPurchaseDetail.swift",
       "kind": "StringLiteral",
       "offset": 817,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSIAPProductPurchaseDetail.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSIAPProductPurchaseDetail.swift",
       "kind": "StringLiteral",
       "offset": 923,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSIAPProductPurchaseDetail.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSIAPProductPurchaseDetail.swift",
       "kind": "StringLiteral",
       "offset": 1003,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSIAPProductPurchaseDetail.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSIAPProductPurchaseDetail.swift",
       "kind": "StringLiteral",
       "offset": 1090,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSIAPProductPurchaseDetail.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSIAPProductPurchaseDetail.swift",
       "kind": "StringLiteral",
       "offset": 1176,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSIAPProductPurchaseDetail.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSIAPProductPurchaseDetail.swift",
       "kind": "StringLiteral",
       "offset": 1252,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSIAPProductPurchaseDetail.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSIAPProductPurchaseDetail.swift",
       "kind": "StringLiteral",
       "offset": 1321,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSIAPProductPurchaseDetail.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSIAPProductPurchaseDetail.swift",
       "kind": "StringLiteral",
       "offset": 1395,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSIAPProductPurchaseDetail.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSIAPProductPurchaseDetail.swift",
       "kind": "StringLiteral",
       "offset": 1473,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSIAPProductPurchaseDetail.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSIAPProductPurchaseDetail.swift",
       "kind": "StringLiteral",
       "offset": 1562,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSIAPProductPurchaseDetail.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSIAPProductPurchaseDetail.swift",
       "kind": "StringLiteral",
       "offset": 1640,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
       "kind": "StringLiteral",
       "offset": 736,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
       "kind": "StringLiteral",
       "offset": 910,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
       "kind": "StringLiteral",
       "offset": 1127,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
       "kind": "IntegerLiteral",
       "offset": 1210,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
       "kind": "IntegerLiteral",
       "offset": 1500,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
       "kind": "StringLiteral",
       "offset": 1579,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
       "kind": "StringLiteral",
       "offset": 1687,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
       "kind": "StringLiteral",
       "offset": 1791,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
       "kind": "StringLiteral",
       "offset": 1865,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
       "kind": "StringLiteral",
       "offset": 1972,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
       "kind": "IntegerLiteral",
       "offset": 2090,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
       "kind": "Array",
       "offset": 3191,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
       "kind": "StringLiteral",
       "offset": 4123,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
       "kind": "StringLiteral",
       "offset": 4262,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
       "kind": "StringLiteral",
       "offset": 4415,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
       "kind": "StringLiteral",
       "offset": 4560,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
       "kind": "StringLiteral",
       "offset": 4695,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
       "kind": "StringLiteral",
       "offset": 4826,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
       "kind": "StringLiteral",
       "offset": 5002,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
       "kind": "StringLiteral",
       "offset": 5180,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
       "kind": "StringLiteral",
       "offset": 5315,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
       "kind": "StringLiteral",
       "offset": 5446,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
       "kind": "StringLiteral",
       "offset": 5758,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
       "kind": "IntegerLiteral",
       "offset": 6523,
       "length": 12,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
       "kind": "IntegerLiteral",
       "offset": 6621,
       "length": 4,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
       "kind": "IntegerLiteral",
       "offset": 6772,
       "length": 7,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
       "kind": "IntegerLiteral",
       "offset": 6886,
       "length": 6,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
       "kind": "IntegerLiteral",
       "offset": 7022,
       "length": 6,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
       "kind": "IntegerLiteral",
       "offset": 7243,
       "length": 11,
       "value": "6"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
       "kind": "IntegerLiteral",
       "offset": 7384,
       "length": 9,
       "value": "7"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
       "kind": "IntegerLiteral",
       "offset": 7470,
       "length": 7,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
       "kind": "IntegerLiteral",
       "offset": 7669,
       "length": 14,
       "value": "9"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
       "kind": "IntegerLiteral",
       "offset": 7807,
       "length": 7,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
       "kind": "IntegerLiteral",
       "offset": 8797,
       "length": 9,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
       "kind": "IntegerLiteral",
       "offset": 8820,
       "length": 3,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
       "kind": "IntegerLiteral",
       "offset": 8837,
       "length": 7,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitUtil.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitUtil.swift",
       "kind": "Array",
       "offset": 1401,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitUtil.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitUtil.swift",
       "kind": "Array",
       "offset": 2952,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitUtil.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitUtil.swift",
       "kind": "BooleanLiteral",
       "offset": 3460,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitUtil.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitUtil.swift",
       "kind": "BooleanLiteral",
       "offset": 3531,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitUtil.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitUtil.swift",
       "kind": "BooleanLiteral",
       "offset": 3648,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitUtil.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitUtil.swift",
       "kind": "Array",
       "offset": 3870,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitUtil.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitUtil.swift",
       "kind": "Array",
       "offset": 3925,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitUtil.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitUtil.swift",
       "kind": "Array",
       "offset": 10959,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitConstants.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitConstants.swift",
       "kind": "StringLiteral",
       "offset": 1502,
       "length": 12,
       "value": "\"yyyy-MM-dd\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitConstants.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitConstants.swift",
       "kind": "StringLiteral",
       "offset": 1556,
       "length": 24,
       "value": "\"yyyy-MM-dd'T'HH:mm:ssZ\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitConstants.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitConstants.swift",
       "kind": "StringLiteral",
       "offset": 1648,
       "length": 25,
       "value": "\"yyyy-MM-dd HH:mm:ss.SSS\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSPlan.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSPlan.swift",
       "kind": "StringLiteral",
       "offset": 521,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSPlan.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSPlan.swift",
       "kind": "StringLiteral",
       "offset": 614,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSPlan.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSPlan.swift",
       "kind": "StringLiteral",
       "offset": 693,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSPlan.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSPlan.swift",
       "kind": "BooleanLiteral",
       "offset": 831,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSPlan.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSPlan.swift",
       "kind": "IntegerLiteral",
       "offset": 1015,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSPlan.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSPlan.swift",
       "kind": "Array",
       "offset": 1400,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSPlan.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSPlan.swift",
       "kind": "IntegerLiteral",
       "offset": 1475,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSPlan.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSPlan.swift",
       "kind": "StringLiteral",
       "offset": 1578,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSPlan.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSPlan.swift",
       "kind": "IntegerLiteral",
       "offset": 1674,
       "length": 2,
       "value": "-1"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSPlan.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSPlan.swift",
       "kind": "StringLiteral",
       "offset": 2582,
       "length": 8,
       "value": "\"active\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
       "kind": "StringLiteral",
       "offset": 538,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
       "kind": "IntegerLiteral",
       "offset": 684,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
       "kind": "BooleanLiteral",
       "offset": 829,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
       "kind": "IntegerLiteral",
       "offset": 973,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
       "kind": "IntegerLiteral",
       "offset": 1128,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
       "kind": "IntegerLiteral",
       "offset": 1290,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
       "kind": "Dictionary",
       "offset": 1456,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
       "kind": "Array",
       "offset": 1629,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKit.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKit.swift",
       "kind": "Array",
       "offset": 2792,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKit.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKit.swift",
       "kind": "Array",
-      "offset": 5491,
+      "offset": 5551,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Aug_07_2025\/ZSM_INAPP_SDK_IOS\/11229687\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKit.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_02_2025\/ZSM_INAPP_SDK_IOS\/11408568\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKit.swift",
       "kind": "Array",
-      "offset": 7292,
+      "offset": 7400,
       "length": 2,
       "value": "[]"
     }

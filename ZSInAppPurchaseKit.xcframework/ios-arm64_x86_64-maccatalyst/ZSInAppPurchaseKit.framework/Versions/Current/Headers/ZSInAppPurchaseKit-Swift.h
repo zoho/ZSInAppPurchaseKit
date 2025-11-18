@@ -339,7 +339,7 @@ SWIFT_CLASS("_TtC18ZSInAppPurchaseKit5ZSKit")
 @end
 
 
-/// Plan object that contains the plan related information entered in Zoho Subscription along with the SKProduct info from App Store.
+/// Plan object that contains the plan related information entered in Zoho Billing along with the SKProduct info from App Store.
 SWIFT_CLASS("_TtC18ZSInAppPurchaseKit6ZSPlan")
 @interface ZSPlan : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
@@ -702,7 +702,7 @@ SWIFT_CLASS("_TtC18ZSInAppPurchaseKit5ZSKit")
 @end
 
 
-/// Plan object that contains the plan related information entered in Zoho Subscription along with the SKProduct info from App Store.
+/// Plan object that contains the plan related information entered in Zoho Billing along with the SKProduct info from App Store.
 SWIFT_CLASS("_TtC18ZSInAppPurchaseKit6ZSPlan")
 @interface ZSPlan : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;

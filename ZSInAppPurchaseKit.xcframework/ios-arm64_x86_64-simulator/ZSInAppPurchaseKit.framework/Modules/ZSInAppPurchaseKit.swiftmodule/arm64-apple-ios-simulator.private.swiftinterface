@@ -9,14 +9,19 @@ import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-public enum ZSDomain : Swift.Int {
-  case usDC
-  case inDC
-  case euDC
-  case auDC
-  public init?(rawValue: Swift.Int)
-  public typealias RawValue = Swift.Int
-  public var rawValue: Swift.Int {
+public enum ZSDomain : Swift.String {
+  case com
+  case ca
+  case `in`
+  case eu
+  case uk
+  case au
+  case sa
+  case ae
+  case jp
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
     get
   }
 }
@@ -125,6 +130,10 @@ public struct ZSPromotionalOfferSignature {
 public struct ZSCustomFieldFilter {
   public enum MatchType : Swift.String {
     case contains
+    case greaterThan
+    case greaterThanOrEqualTo
+    case lessThan
+    case lessThanOrEqualTo
     public init?(rawValue: Swift.String)
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
@@ -230,7 +239,6 @@ public protocol ZSKitDelegate {
   final public var name: Swift.String
   final public var planDescription: Swift.String
   final public var planCode: Swift.String
-  final public var isSubscriptionActive: Swift.Bool
   final public var interval: Swift.Int
   final public var intervalUnit: ZSInAppPurchaseKit.ZSPlanInterval
   final public var customFields: [ZSInAppPurchaseKit.ZSCustomField]

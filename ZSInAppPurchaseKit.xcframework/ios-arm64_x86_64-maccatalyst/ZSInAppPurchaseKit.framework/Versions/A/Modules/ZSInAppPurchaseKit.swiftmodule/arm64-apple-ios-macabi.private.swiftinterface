@@ -150,6 +150,7 @@ public struct ZSCustomFieldFilter {
   public var code: ZSInAppPurchaseKit.ZSErrorCode
   public var errorCode: Swift.Int
   public var errorDescription: Swift.String
+  public var errorInfo: [[Swift.String : Any]]?
   public var description: Swift.String {
     get
   }

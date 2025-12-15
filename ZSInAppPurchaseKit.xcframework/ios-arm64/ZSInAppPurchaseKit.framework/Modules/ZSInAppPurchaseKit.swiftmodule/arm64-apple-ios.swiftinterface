@@ -258,7 +258,7 @@ extension StoreKit.Transaction {
 }
 @objc @_inheritsConvenienceInitializers final public class ZSKit : ObjectiveC.NSObject {
   final public class func initialize(configuration: ZSInAppPurchaseKit.ZSConfiguration)
-  final public class func getPlans(customFilters: [ZSInAppPurchaseKit.ZSCustomFieldFilter] = [], completion: @escaping ZSInAppPurchaseKit.ZSPlansHandler)
+  final public class func getPlans(customFilters: [ZSInAppPurchaseKit.ZSCustomFieldFilter] = [], useCache: Swift.Bool = false, completion: @escaping ZSInAppPurchaseKit.ZSPlansHandler)
   final public class func getStoreKitProducts(productIDs: [Swift.String], completion: @escaping ZSInAppPurchaseKit.ZSSKProductsHandler)
   final public class func getStoreKitProducts(productIDs: [Swift.String]) async -> Swift.Result<[StoreKit.Product], ZSInAppPurchaseKit.ZSError>
   final public class func getIAPProducts(productIDs: [Swift.String], completion: @escaping ZSInAppPurchaseKit.ZSIAPProductsHandler)

@@ -68,6 +68,27 @@ public enum ZSErrorCode : Swift.Int {
     get
   }
 }
+public struct ZSStoreTransaction {
+  public var transaction: StoreKit.Transaction
+  public var productIdentifier: Swift.String {
+    get
+  }
+  public var originalTransactionId: Swift.String {
+    get
+  }
+  public var jsonStrting: Swift.String? {
+    get
+  }
+  public var jsonDictionary: [Swift.String : Any]? {
+    get
+  }
+  public var jsonData: Foundation.Data {
+    get
+  }
+  public var jwsRepresentation: Swift.String {
+    get
+  }
+}
 public struct ZSPromotionalOfferSignature {
   public var offerID: Swift.String
   public var signature: Foundation.Data
@@ -231,9 +252,7 @@ public struct ZSCustomFieldFilter {
   @objc deinit
 }
 public protocol ZSKitDelegate {
-  func shouldPurchasePromoProduct(product: StoreKit.SKProduct, payment: StoreKit.SKPayment, initiatePurchase: @escaping () -> ())
   func didSubscriptionDetailsUpdated(subscriptionDetail: ZSInAppPurchaseKit.ZSSubscriptionDetail)
-  func didIAPProductsUpdated(iapProducts: [ZSInAppPurchaseKit.ZSIAPProductPurchaseDetail])
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers final public class ZSPlan : ObjectiveC.NSObject {
   final public var skProduct: StoreKit.Product?
@@ -261,19 +280,16 @@ extension StoreKit.Transaction {
   final public class func getPlans(customFilters: [ZSInAppPurchaseKit.ZSCustomFieldFilter] = [], useCache: Swift.Bool = false, completion: @escaping ZSInAppPurchaseKit.ZSPlansHandler)
   final public class func getStoreKitProducts(productIDs: [Swift.String], completion: @escaping ZSInAppPurchaseKit.ZSSKProductsHandler)
   final public class func getStoreKitProducts(productIDs: [Swift.String]) async -> Swift.Result<[StoreKit.Product], ZSInAppPurchaseKit.ZSError>
-  final public class func getIAPProducts(productIDs: [Swift.String], completion: @escaping ZSInAppPurchaseKit.ZSIAPProductsHandler)
   final public class func initiatePurchase(product: StoreKit.Product, prmotionalOfferDetails: ZSInAppPurchaseKit.ZSPromotionalOfferSignature? = nil, customFields: [ZSInAppPurchaseKit.ZSCustomField] = [], completion: @escaping ZSInAppPurchaseKit.ZSPurchaseHandler)
   final public class func restorePurchase(customFields: [ZSInAppPurchaseKit.ZSCustomField] = [], completion: @escaping ZSInAppPurchaseKit.ZSPurchaseHandler)
-  final public class func restorePurchase(customFields: [ZSInAppPurchaseKit.ZSCustomField], completion: @escaping ZSInAppPurchaseKit.ZSRestorePurchaseHandler)
-  final public class func restoreSubscription(transaction: StoreKit.Transaction, customFields: [ZSInAppPurchaseKit.ZSCustomField], completion: @escaping ZSInAppPurchaseKit.ZSPurchaseHandler)
-  final public class func initiatePurchaseForIAPProduct(product: StoreKit.SKProduct, quantity: Swift.Int? = nil, completion: @escaping ZSInAppPurchaseKit.ZSIAPProductsPurchaseHandler)
-  final public class func restoreIAPProductsPurchase(completion: @escaping ZSInAppPurchaseKit.ZSIAPProductsPurchaseHandler)
+  final public class func restoreAllPurchases(customFields: [ZSInAppPurchaseKit.ZSCustomField], completion: @escaping ZSInAppPurchaseKit.ZSRestorePurchaseHandler)
+  final public class func restoreSubscription(transaction: ZSInAppPurchaseKit.ZSStoreTransaction, customFields: [ZSInAppPurchaseKit.ZSCustomField], completion: @escaping ZSInAppPurchaseKit.ZSPurchaseHandler)
   final public class func setDelegate(delegate: any ZSInAppPurchaseKit.ZSKitDelegate)
   final public class func isUserEligibleForIntroductoryOffer(product: StoreKit.Product) async -> Swift.Bool
   final public class func isUserEligibleForIntroductoryOffer(groupId: Swift.String) async -> Swift.Bool
   final public class func isStorePurchaseAssociatedWithCurrentUser(completion: @escaping ZSInAppPurchaseKit.ZSUserValidateHandler)
-  final public class func getPurchaseMetadataFromStore() -> ZSInAppPurchaseKit.ZSFileAttachment?
-  final public class func getCurrentEntitlements() async -> [StoreKit.Transaction]
+  final public class func isStorePurchaseAssociatedWithCurrentUser(storeTransaction: ZSInAppPurchaseKit.ZSStoreTransaction, completion: @escaping ZSInAppPurchaseKit.ZSUserValidateHandler)
+  final public class func getCurrentEntitlements() async -> [ZSInAppPurchaseKit.ZSStoreTransaction]
   final public class func clearUserInfo()
   @objc override dynamic public init()
   @objc deinit

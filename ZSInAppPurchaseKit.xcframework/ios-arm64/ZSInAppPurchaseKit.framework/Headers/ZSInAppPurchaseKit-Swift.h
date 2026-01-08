@@ -303,6 +303,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 #if defined(__OBJC__)
 
+
 /// Configuration of the SDK. This configuration contains the basic data used to make API calls to Zoho Billing’s server.
 SWIFT_CLASS("_TtC18ZSInAppPurchaseKit15ZSConfiguration")
 @interface ZSConfiguration : NSObject

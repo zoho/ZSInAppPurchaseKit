@@ -2134,8 +2134,8 @@
           },
           {
             "kind": "Var",
-            "name": "jsonStrting",
-            "printedName": "jsonStrting",
+            "name": "jsonString",
+            "printedName": "jsonString",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -2153,8 +2153,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:18ZSInAppPurchaseKit18ZSStoreTransactionV11jsonStrtingSSSgvp",
-            "mangledName": "$s18ZSInAppPurchaseKit18ZSStoreTransactionV11jsonStrtingSSSgvp",
+            "usr": "s:18ZSInAppPurchaseKit18ZSStoreTransactionV10jsonStringSSSgvp",
+            "mangledName": "$s18ZSInAppPurchaseKit18ZSStoreTransactionV10jsonStringSSSgvp",
             "moduleName": "ZSInAppPurchaseKit",
             "declAttributes": [
               "AccessControl"
@@ -2181,8 +2181,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:18ZSInAppPurchaseKit18ZSStoreTransactionV11jsonStrtingSSSgvg",
-                "mangledName": "$s18ZSInAppPurchaseKit18ZSStoreTransactionV11jsonStrtingSSSgvg",
+                "usr": "s:18ZSInAppPurchaseKit18ZSStoreTransactionV10jsonStringSSSgvg",
+                "mangledName": "$s18ZSInAppPurchaseKit18ZSStoreTransactionV10jsonStringSSSgvg",
                 "moduleName": "ZSInAppPurchaseKit",
                 "accessorKind": "get"
               }
@@ -2265,46 +2265,6 @@
                 "declKind": "Accessor",
                 "usr": "s:18ZSInAppPurchaseKit18ZSStoreTransactionV14jsonDictionarySDySSypGSgvg",
                 "mangledName": "$s18ZSInAppPurchaseKit18ZSStoreTransactionV14jsonDictionarySDySSypGSgvg",
-                "moduleName": "ZSInAppPurchaseKit",
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "jsonData",
-            "printedName": "jsonData",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Data",
-                "printedName": "Foundation.Data",
-                "usr": "s:10Foundation4DataV"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:18ZSInAppPurchaseKit18ZSStoreTransactionV8jsonData10Foundation0H0Vvp",
-            "mangledName": "$s18ZSInAppPurchaseKit18ZSStoreTransactionV8jsonData10Foundation0H0Vvp",
-            "moduleName": "ZSInAppPurchaseKit",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Data",
-                    "printedName": "Foundation.Data",
-                    "usr": "s:10Foundation4DataV"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:18ZSInAppPurchaseKit18ZSStoreTransactionV8jsonData10Foundation0H0Vvg",
-                "mangledName": "$s18ZSInAppPurchaseKit18ZSStoreTransactionV8jsonData10Foundation0H0Vvg",
                 "moduleName": "ZSInAppPurchaseKit",
                 "accessorKind": "get"
               }
@@ -14754,6 +14714,149 @@
                 "accessorKind": "get"
               }
             ]
+          },
+          {
+            "kind": "Var",
+            "name": "jsonDictionary",
+            "printedName": "jsonDictionary",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8StoreKit11TransactionV015ZSInAppPurchaseB0E14jsonDictionarySDySSypGSgvp",
+            "mangledName": "$s8StoreKit11TransactionV015ZSInAppPurchaseB0E14jsonDictionarySDySSypGSgvp",
+            "moduleName": "ZSInAppPurchaseKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String : Any]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Any]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "Any"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8StoreKit11TransactionV015ZSInAppPurchaseB0E14jsonDictionarySDySSypGSgvg",
+                "mangledName": "$s8StoreKit11TransactionV015ZSInAppPurchaseB0E14jsonDictionarySDySSypGSgvg",
+                "moduleName": "ZSInAppPurchaseKit",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "jsonString",
+            "printedName": "jsonString",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8StoreKit11TransactionV015ZSInAppPurchaseB0E10jsonStringSSSgvp",
+            "mangledName": "$s8StoreKit11TransactionV015ZSInAppPurchaseB0E10jsonStringSSSgvp",
+            "moduleName": "ZSInAppPurchaseKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8StoreKit11TransactionV015ZSInAppPurchaseB0E10jsonStringSSSgvg",
+                "mangledName": "$s8StoreKit11TransactionV015ZSInAppPurchaseB0E10jsonStringSSSgvg",
+                "moduleName": "ZSInAppPurchaseKit",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
           }
         ],
         "declKind": "Struct",
@@ -14838,1182 +14941,3406 @@
             "mangledName": "$ss8SendableP"
           }
         ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UIDevice",
+        "printedName": "UIDevice",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "modelName",
+            "printedName": "modelName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So8UIDeviceC18ZSInAppPurchaseKitE9modelNameSSvpZ",
+            "mangledName": "$sSo8UIDeviceC18ZSInAppPurchaseKitE9modelNameSSvpZ",
+            "moduleName": "ZSInAppPurchaseKit",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "Preconcurrency",
+              "Custom"
+            ],
+            "isFromExtension": true,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So8UIDeviceC18ZSInAppPurchaseKitE9modelNameSSvgZ",
+                "mangledName": "$sSo8UIDeviceC18ZSInAppPurchaseKitE9modelNameSSvgZ",
+                "moduleName": "ZSInAppPurchaseKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "data",
+            "printedName": "data(for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.Int8]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.Int8]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int8",
+                        "printedName": "Swift.Int8",
+                        "usr": "s:s4Int8V"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.Int32]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int32",
+                    "printedName": "Swift.Int32",
+                    "usr": "s:s5Int32V"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So8UIDeviceC18ZSInAppPurchaseKitE4data3forSays4Int8VGSgSays5Int32VG_tFZ",
+            "mangledName": "$sSo8UIDeviceC18ZSInAppPurchaseKitE4data3forSays4Int8VGSgSays5Int32VG_tFZ",
+            "moduleName": "ZSInAppPurchaseKit",
+            "static": true,
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "Final",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "string",
+            "printedName": "string(for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.Int32]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int32",
+                    "printedName": "Swift.Int32",
+                    "usr": "s:s5Int32V"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So8UIDeviceC18ZSInAppPurchaseKitE6string3forSSSgSays5Int32VG_tFZ",
+            "mangledName": "$sSo8UIDeviceC18ZSInAppPurchaseKitE6string3forSSSgSays5Int32VG_tFZ",
+            "moduleName": "ZSInAppPurchaseKit",
+            "static": true,
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "Final"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "currentMacDeviceIdentifier",
+            "printedName": "currentMacDeviceIdentifier",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So8UIDeviceC18ZSInAppPurchaseKitE26currentMacDeviceIdentifierSSSgvpZ",
+            "mangledName": "$sSo8UIDeviceC18ZSInAppPurchaseKitE26currentMacDeviceIdentifierSSSgvpZ",
+            "moduleName": "ZSInAppPurchaseKit",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "Preconcurrency",
+              "Custom"
+            ],
+            "isFromExtension": true,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So8UIDeviceC18ZSInAppPurchaseKitE26currentMacDeviceIdentifierSSSgvgZ",
+                "mangledName": "$sSo8UIDeviceC18ZSInAppPurchaseKitE26currentMacDeviceIdentifierSSSgvgZ",
+                "moduleName": "ZSInAppPurchaseKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)UIDevice",
+        "moduleName": "UIKit",
+        "isOpen": true,
+        "intro_iOS": "2.0",
+        "objc_name": "UIDevice",
+        "declAttributes": [
+          "Preconcurrency",
+          "Available",
+          "Available",
+          "ObjC",
+          "NonSendable",
+          "Custom",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
       }
     ],
     "json_format_version": 8
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitEnumerations.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitEnumerations.swift",
       "kind": "StringLiteral",
       "offset": 234,
       "length": 6,
       "value": "\"POST\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitEnumerations.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitEnumerations.swift",
       "kind": "StringLiteral",
       "offset": 248,
       "length": 5,
       "value": "\"PUT\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitEnumerations.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitEnumerations.swift",
       "kind": "StringLiteral",
       "offset": 261,
       "length": 5,
       "value": "\"GET\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitEnumerations.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitEnumerations.swift",
       "kind": "StringLiteral",
       "offset": 277,
       "length": 8,
       "value": "\"DELETE\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitEnumerations.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitEnumerations.swift",
       "kind": "StringLiteral",
       "offset": 542,
       "length": 4,
       "value": "\"us\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitEnumerations.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitEnumerations.swift",
       "kind": "IntegerLiteral",
       "offset": 2154,
       "length": 7,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitEnumerations.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitEnumerations.swift",
       "kind": "IntegerLiteral",
       "offset": 2171,
       "length": 6,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitEnumerations.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitEnumerations.swift",
       "kind": "IntegerLiteral",
       "offset": 2698,
       "length": 2,
       "value": "-1"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitEnumerations.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitEnumerations.swift",
       "kind": "IntegerLiteral",
       "offset": 2855,
       "length": 15,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitEnumerations.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitEnumerations.swift",
       "kind": "IntegerLiteral",
       "offset": 2973,
       "length": 21,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitEnumerations.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitEnumerations.swift",
       "kind": "IntegerLiteral",
       "offset": 3075,
       "length": 24,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitEnumerations.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitEnumerations.swift",
       "kind": "IntegerLiteral",
       "offset": 3210,
       "length": 22,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitEnumerations.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitEnumerations.swift",
       "kind": "IntegerLiteral",
       "offset": 3323,
       "length": 25,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitEnumerations.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitEnumerations.swift",
       "kind": "IntegerLiteral",
       "offset": 3445,
       "length": 27,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitEnumerations.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitEnumerations.swift",
       "kind": "IntegerLiteral",
       "offset": 3578,
       "length": 36,
       "value": "6"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitEnumerations.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitEnumerations.swift",
       "kind": "IntegerLiteral",
       "offset": 3703,
       "length": 43,
       "value": "7"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitEnumerations.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitEnumerations.swift",
       "kind": "IntegerLiteral",
       "offset": 3849,
       "length": 27,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitEnumerations.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitEnumerations.swift",
       "kind": "IntegerLiteral",
       "offset": 3996,
       "length": 38,
       "value": "9"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitEnumerations.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitEnumerations.swift",
       "kind": "IntegerLiteral",
       "offset": 4171,
       "length": 31,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitEnumerations.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitEnumerations.swift",
       "kind": "IntegerLiteral",
       "offset": 4279,
       "length": 30,
       "value": "11"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitEnumerations.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitEnumerations.swift",
       "kind": "IntegerLiteral",
       "offset": 4418,
       "length": 25,
       "value": "12"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitEnumerations.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitEnumerations.swift",
       "kind": "IntegerLiteral",
       "offset": 4537,
       "length": 24,
       "value": "13"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitEnumerations.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitEnumerations.swift",
       "kind": "IntegerLiteral",
       "offset": 4651,
       "length": 26,
       "value": "14"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitEnumerations.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitEnumerations.swift",
       "kind": "IntegerLiteral",
       "offset": 4820,
       "length": 15,
       "value": "15"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitEnumerations.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitEnumerations.swift",
       "kind": "IntegerLiteral",
       "offset": 4954,
       "length": 4,
       "value": "2142"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitEnumerations.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitEnumerations.swift",
       "kind": "IntegerLiteral",
       "offset": 5102,
       "length": 4,
       "value": "2145"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitEnumerations.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitEnumerations.swift",
       "kind": "IntegerLiteral",
       "offset": 5227,
       "length": 4,
       "value": "2146"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitEnumerations.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitEnumerations.swift",
       "kind": "IntegerLiteral",
       "offset": 5393,
       "length": 3,
       "value": "101"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitEnumerations.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitEnumerations.swift",
       "kind": "IntegerLiteral",
       "offset": 5497,
       "length": 6,
       "value": "101019"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitEnumerations.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitEnumerations.swift",
       "kind": "IntegerLiteral",
       "offset": 5663,
       "length": 19,
       "value": "101020"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitEnumerations.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitEnumerations.swift",
       "kind": "IntegerLiteral",
       "offset": 5907,
       "length": 20,
       "value": "101021"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitEnumerations.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitEnumerations.swift",
       "kind": "IntegerLiteral",
       "offset": 6312,
       "length": 22,
       "value": "101022"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitEnumerations.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitEnumerations.swift",
       "kind": "IntegerLiteral",
       "offset": 6424,
       "length": 29,
       "value": "101023"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSCustomField.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSCustomField.swift",
       "kind": "StringLiteral",
       "offset": 303,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSCustomField.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSCustomField.swift",
       "kind": "StringLiteral",
       "offset": 364,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSCustomField.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSCustomField.swift",
       "kind": "IntegerLiteral",
       "offset": 405,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSCustomField.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSCustomField.swift",
       "kind": "BooleanLiteral",
       "offset": 440,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSCustomField.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSCustomField.swift",
       "kind": "StringLiteral",
       "offset": 534,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSCustomField.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSCustomField.swift",
       "kind": "StringLiteral",
       "offset": 577,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSCustomField.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSCustomField.swift",
       "kind": "StringLiteral",
       "offset": 720,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSCustomField.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSCustomField.swift",
       "kind": "IntegerLiteral",
       "offset": 781,
       "length": 5,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSCustomField.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSCustomField.swift",
       "kind": "IntegerLiteral",
       "offset": 788,
       "length": 3,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSCustomField.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSCustomField.swift",
       "kind": "IntegerLiteral",
       "offset": 793,
       "length": 5,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSCustomField.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSCustomField.swift",
       "kind": "IntegerLiteral",
       "offset": 800,
       "length": 6,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSCustomField.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSCustomField.swift",
       "kind": "IntegerLiteral",
       "offset": 808,
       "length": 7,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSCustomField.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSCustomField.swift",
       "kind": "IntegerLiteral",
       "offset": 817,
       "length": 6,
       "value": "6"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSCustomField.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSCustomField.swift",
       "kind": "IntegerLiteral",
       "offset": 825,
       "length": 7,
       "value": "7"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSCustomField.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSCustomField.swift",
       "kind": "IntegerLiteral",
       "offset": 834,
       "length": 4,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSCustomField.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSCustomField.swift",
       "kind": "IntegerLiteral",
       "offset": 840,
       "length": 8,
       "value": "9"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSCustomField.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSCustomField.swift",
       "kind": "IntegerLiteral",
       "offset": 850,
       "length": 10,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSCustomField.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSCustomField.swift",
       "kind": "IntegerLiteral",
       "offset": 862,
       "length": 8,
       "value": "11"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSCustomField.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSCustomField.swift",
       "kind": "IntegerLiteral",
       "offset": 872,
       "length": 10,
       "value": "12"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSCustomField.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSCustomField.swift",
       "kind": "IntegerLiteral",
       "offset": 884,
       "length": 11,
       "value": "13"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSCustomField.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSCustomField.swift",
       "kind": "IntegerLiteral",
       "offset": 897,
       "length": 9,
       "value": "14"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSCustomField.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSCustomField.swift",
       "kind": "IntegerLiteral",
       "offset": 908,
       "length": 6,
       "value": "15"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSConfiguration.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 901,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSConfiguration.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 1003,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSConfiguration.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 1275,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSConfiguration.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSConfiguration.swift",
       "kind": "BooleanLiteral",
       "offset": 1535,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSConfiguration.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 1711,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSConfiguration.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 1860,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSConfiguration.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 2024,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSConfiguration.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSConfiguration.swift",
       "kind": "BooleanLiteral",
       "offset": 3503,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/native\/ZSKit\/ZSKit\/ZSAPIHandler.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/native\/ZSKit\/ZSKit\/ZSAPIHandler.swift",
       "kind": "Array",
       "offset": 1823,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/native\/ZSKit\/ZSKit\/ZSAPIHandler.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/native\/ZSKit\/ZSKit\/ZSAPIHandler.swift",
       "kind": "BooleanLiteral",
       "offset": 1844,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/native\/ZSKit\/ZSKit\/ZSAPIHandler.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/native\/ZSKit\/ZSKit\/ZSAPIHandler.swift",
       "kind": "Array",
       "offset": 19490,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/native\/ZSKit\/ZSKit\/ZSAPIHandler.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/native\/ZSKit\/ZSKit\/ZSAPIHandler.swift",
       "kind": "BooleanLiteral",
       "offset": 19511,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/native\/ZSKit\/ZSKit\/ZSKitNetworkHandler.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/native\/ZSKit\/ZSKit\/ZSKitNetworkHandler.swift",
       "kind": "BooleanLiteral",
       "offset": 3599,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSCustomFieldFilter.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSCustomFieldFilter.swift",
       "kind": "StringLiteral",
       "offset": 863,
       "length": 14,
       "value": "\"greater_than\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSCustomFieldFilter.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSCustomFieldFilter.swift",
       "kind": "StringLiteral",
       "offset": 1018,
       "length": 16,
       "value": "\"greater_equals\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSCustomFieldFilter.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSCustomFieldFilter.swift",
       "kind": "StringLiteral",
       "offset": 1148,
       "length": 11,
       "value": "\"less_than\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSCustomFieldFilter.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSCustomFieldFilter.swift",
       "kind": "StringLiteral",
       "offset": 1294,
       "length": 13,
       "value": "\"less_equals\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitErrorHandler.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitErrorHandler.swift",
       "kind": "StringLiteral",
       "offset": 623,
       "length": 24,
       "value": "\"Unknown error occured.\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitErrorHandler.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitErrorHandler.swift",
       "kind": "StringLiteral",
       "offset": 997,
       "length": 24,
       "value": "\"Unknown error occured.\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitErrorHandler.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitErrorHandler.swift",
       "kind": "StringLiteral",
       "offset": 1085,
       "length": 14,
       "value": "\"Invalid URL.\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitErrorHandler.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitErrorHandler.swift",
       "kind": "StringLiteral",
       "offset": 1168,
       "length": 24,
       "value": "\"Unknown error occured.\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitErrorHandler.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitErrorHandler.swift",
       "kind": "StringLiteral",
       "offset": 1493,
       "length": 24,
       "value": "\"Receipt not available.\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitErrorHandler.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitErrorHandler.swift",
       "kind": "StringLiteral",
       "offset": 1605,
       "length": 153,
       "value": "\"If some of the configurations not given in the initalizer this error will be thrown. Other functions have to be called after intialize of the SDK only.\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitErrorHandler.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitErrorHandler.swift",
       "kind": "StringLiteral",
       "offset": 1860,
       "length": 38,
       "value": "\"There are no active purchases found.\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitErrorHandler.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitErrorHandler.swift",
       "kind": "StringLiteral",
       "offset": 1992,
       "length": 32,
       "value": "\"User has canceled the payment.\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitErrorHandler.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitErrorHandler.swift",
       "kind": "StringLiteral",
       "offset": 2120,
       "length": 43,
       "value": "\"Payment is pending for additional action.\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitErrorHandler.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitErrorHandler.swift",
       "kind": "StringLiteral",
       "offset": 2264,
       "length": 38,
       "value": "\"App Store transaction is unverified.\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitErrorHandler.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitErrorHandler.swift",
       "kind": "IntegerLiteral",
       "offset": 2595,
       "length": 2,
       "value": "-1"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/StoreKit\/ZFStoreKitController.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/StoreKit\/ZFStoreKitController.swift",
       "kind": "Array",
       "offset": 586,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSIAPProductPurchaseDetail.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSIAPProductPurchaseDetail.swift",
       "kind": "StringLiteral",
       "offset": 297,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSIAPProductPurchaseDetail.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSIAPProductPurchaseDetail.swift",
       "kind": "StringLiteral",
       "offset": 364,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSIAPProductPurchaseDetail.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSIAPProductPurchaseDetail.swift",
       "kind": "StringLiteral",
       "offset": 446,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSIAPProductPurchaseDetail.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSIAPProductPurchaseDetail.swift",
       "kind": "StringLiteral",
       "offset": 524,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSIAPProductPurchaseDetail.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSIAPProductPurchaseDetail.swift",
       "kind": "StringLiteral",
       "offset": 602,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSIAPProductPurchaseDetail.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSIAPProductPurchaseDetail.swift",
       "kind": "StringLiteral",
       "offset": 669,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSIAPProductPurchaseDetail.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSIAPProductPurchaseDetail.swift",
       "kind": "StringLiteral",
       "offset": 736,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSIAPProductPurchaseDetail.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSIAPProductPurchaseDetail.swift",
       "kind": "StringLiteral",
       "offset": 817,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSIAPProductPurchaseDetail.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSIAPProductPurchaseDetail.swift",
       "kind": "StringLiteral",
       "offset": 923,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSIAPProductPurchaseDetail.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSIAPProductPurchaseDetail.swift",
       "kind": "StringLiteral",
       "offset": 1003,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSIAPProductPurchaseDetail.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSIAPProductPurchaseDetail.swift",
       "kind": "StringLiteral",
       "offset": 1090,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSIAPProductPurchaseDetail.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSIAPProductPurchaseDetail.swift",
       "kind": "StringLiteral",
       "offset": 1176,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSIAPProductPurchaseDetail.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSIAPProductPurchaseDetail.swift",
       "kind": "StringLiteral",
       "offset": 1252,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSIAPProductPurchaseDetail.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSIAPProductPurchaseDetail.swift",
       "kind": "StringLiteral",
       "offset": 1321,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSIAPProductPurchaseDetail.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSIAPProductPurchaseDetail.swift",
       "kind": "StringLiteral",
       "offset": 1395,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSIAPProductPurchaseDetail.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSIAPProductPurchaseDetail.swift",
       "kind": "StringLiteral",
       "offset": 1473,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSIAPProductPurchaseDetail.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSIAPProductPurchaseDetail.swift",
       "kind": "StringLiteral",
       "offset": 1562,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSIAPProductPurchaseDetail.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSIAPProductPurchaseDetail.swift",
       "kind": "StringLiteral",
       "offset": 1640,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
       "kind": "StringLiteral",
       "offset": 736,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
       "kind": "StringLiteral",
       "offset": 910,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
       "kind": "StringLiteral",
       "offset": 1127,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
       "kind": "IntegerLiteral",
       "offset": 1210,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
       "kind": "IntegerLiteral",
       "offset": 1500,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
       "kind": "StringLiteral",
       "offset": 1579,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
       "kind": "StringLiteral",
       "offset": 1687,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
       "kind": "StringLiteral",
       "offset": 1791,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
       "kind": "StringLiteral",
       "offset": 1865,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
       "kind": "StringLiteral",
       "offset": 1972,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
       "kind": "IntegerLiteral",
       "offset": 2090,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
       "kind": "Array",
       "offset": 3191,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
       "kind": "StringLiteral",
       "offset": 4123,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
       "kind": "StringLiteral",
       "offset": 4262,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
       "kind": "StringLiteral",
       "offset": 4415,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
       "kind": "StringLiteral",
       "offset": 4560,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
       "kind": "StringLiteral",
       "offset": 4695,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
       "kind": "StringLiteral",
       "offset": 4826,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
       "kind": "StringLiteral",
       "offset": 5002,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
       "kind": "StringLiteral",
       "offset": 5180,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
       "kind": "StringLiteral",
       "offset": 5315,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
       "kind": "StringLiteral",
       "offset": 5446,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
       "kind": "StringLiteral",
       "offset": 5758,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
       "kind": "IntegerLiteral",
       "offset": 6523,
       "length": 12,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
       "kind": "IntegerLiteral",
       "offset": 6621,
       "length": 4,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
       "kind": "IntegerLiteral",
       "offset": 6772,
       "length": 7,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
       "kind": "IntegerLiteral",
       "offset": 6886,
       "length": 6,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
       "kind": "IntegerLiteral",
       "offset": 7022,
       "length": 6,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
       "kind": "IntegerLiteral",
       "offset": 7243,
       "length": 11,
       "value": "6"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
       "kind": "IntegerLiteral",
       "offset": 7384,
       "length": 9,
       "value": "7"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
       "kind": "IntegerLiteral",
       "offset": 7470,
       "length": 7,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
       "kind": "IntegerLiteral",
       "offset": 7669,
       "length": 14,
       "value": "9"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
       "kind": "IntegerLiteral",
       "offset": 7807,
       "length": 7,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
       "kind": "IntegerLiteral",
       "offset": 8797,
       "length": 9,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
       "kind": "IntegerLiteral",
       "offset": 8820,
       "length": 3,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSSubscriptionDetail.swift",
       "kind": "IntegerLiteral",
       "offset": 8837,
       "length": 7,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitUtil.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitUtil.swift",
       "kind": "Array",
       "offset": 1417,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitUtil.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitUtil.swift",
       "kind": "Array",
       "offset": 2902,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitUtil.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitUtil.swift",
       "kind": "BooleanLiteral",
       "offset": 3412,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitUtil.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitUtil.swift",
       "kind": "Array",
       "offset": 3599,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitUtil.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitUtil.swift",
       "kind": "Array",
-      "offset": 11469,
+      "offset": 12411,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitUtil.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitUtil.swift",
       "kind": "BooleanLiteral",
-      "offset": 11490,
+      "offset": 12432,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitConstants.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitConstants.swift",
       "kind": "StringLiteral",
       "offset": 1572,
       "length": 12,
       "value": "\"yyyy-MM-dd\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitConstants.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitConstants.swift",
       "kind": "StringLiteral",
       "offset": 1626,
       "length": 24,
       "value": "\"yyyy-MM-dd'T'HH:mm:ssZ\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitConstants.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKitConstants.swift",
       "kind": "StringLiteral",
       "offset": 1718,
       "length": 25,
       "value": "\"yyyy-MM-dd HH:mm:ss.SSS\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSPlan.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSPlan.swift",
       "kind": "StringLiteral",
       "offset": 516,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSPlan.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSPlan.swift",
       "kind": "StringLiteral",
       "offset": 609,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSPlan.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSPlan.swift",
       "kind": "StringLiteral",
       "offset": 688,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSPlan.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSPlan.swift",
       "kind": "IntegerLiteral",
       "offset": 1011,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSPlan.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSPlan.swift",
       "kind": "Array",
       "offset": 1396,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSPlan.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSPlan.swift",
       "kind": "IntegerLiteral",
       "offset": 1471,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSPlan.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSPlan.swift",
       "kind": "StringLiteral",
       "offset": 1574,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSPlan.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSPlan.swift",
       "kind": "IntegerLiteral",
       "offset": 1670,
       "length": 2,
       "value": "-1"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSPlan.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSPlan.swift",
       "kind": "StringLiteral",
       "offset": 2512,
       "length": 8,
       "value": "\"active\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
       "kind": "StringLiteral",
       "offset": 538,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
       "kind": "IntegerLiteral",
       "offset": 684,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
       "kind": "BooleanLiteral",
       "offset": 829,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
       "kind": "IntegerLiteral",
       "offset": 973,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
       "kind": "IntegerLiteral",
       "offset": 1128,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
       "kind": "IntegerLiteral",
       "offset": 1290,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
       "kind": "Dictionary",
       "offset": 1456,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
       "kind": "Array",
       "offset": 1629,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKit.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 2760,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2852,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 3138,
+      "length": 9,
+      "value": "\"iPod5,1\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 3194,
+      "length": 29,
+      "value": "\"iPod touch (5th generation)\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 3241,
+      "length": 9,
+      "value": "\"iPod7,1\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 3297,
+      "length": 29,
+      "value": "\"iPod touch (6th generation)\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 3344,
+      "length": 9,
+      "value": "\"iPod9,1\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 3400,
+      "length": 29,
+      "value": "\"iPod touch (7th generation)\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 3447,
+      "length": 11,
+      "value": "\"iPhone3,1\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 3460,
+      "length": 11,
+      "value": "\"iPhone3,2\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 3473,
+      "length": 11,
+      "value": "\"iPhone3,3\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 3503,
+      "length": 10,
+      "value": "\"iPhone 4\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 3531,
+      "length": 11,
+      "value": "\"iPhone4,1\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 3587,
+      "length": 11,
+      "value": "\"iPhone 4s\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 3616,
+      "length": 11,
+      "value": "\"iPhone5,1\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 3629,
+      "length": 11,
+      "value": "\"iPhone5,2\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 3672,
+      "length": 10,
+      "value": "\"iPhone 5\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 3700,
+      "length": 11,
+      "value": "\"iPhone5,3\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 3713,
+      "length": 11,
+      "value": "\"iPhone5,4\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 3756,
+      "length": 11,
+      "value": "\"iPhone 5c\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 3785,
+      "length": 11,
+      "value": "\"iPhone6,1\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 3798,
+      "length": 11,
+      "value": "\"iPhone6,2\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 3841,
+      "length": 11,
+      "value": "\"iPhone 5s\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 3870,
+      "length": 11,
+      "value": "\"iPhone7,2\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 3926,
+      "length": 10,
+      "value": "\"iPhone 6\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 3954,
+      "length": 11,
+      "value": "\"iPhone7,1\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 4010,
+      "length": 15,
+      "value": "\"iPhone 6 Plus\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 4043,
+      "length": 11,
+      "value": "\"iPhone8,1\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 4099,
+      "length": 11,
+      "value": "\"iPhone 6s\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 4128,
+      "length": 11,
+      "value": "\"iPhone8,2\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 4184,
+      "length": 16,
+      "value": "\"iPhone 6s Plus\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 4218,
+      "length": 11,
+      "value": "\"iPhone9,1\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 4231,
+      "length": 11,
+      "value": "\"iPhone9,3\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 4274,
+      "length": 10,
+      "value": "\"iPhone 7\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 4302,
+      "length": 11,
+      "value": "\"iPhone9,2\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 4315,
+      "length": 11,
+      "value": "\"iPhone9,4\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 4358,
+      "length": 15,
+      "value": "\"iPhone 7 Plus\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 4391,
+      "length": 12,
+      "value": "\"iPhone10,1\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 4405,
+      "length": 12,
+      "value": "\"iPhone10,4\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 4447,
+      "length": 10,
+      "value": "\"iPhone 8\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 4475,
+      "length": 12,
+      "value": "\"iPhone10,2\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 4489,
+      "length": 12,
+      "value": "\"iPhone10,5\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 4531,
+      "length": 15,
+      "value": "\"iPhone 8 Plus\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 4564,
+      "length": 12,
+      "value": "\"iPhone10,3\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 4578,
+      "length": 12,
+      "value": "\"iPhone10,6\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 4620,
+      "length": 10,
+      "value": "\"iPhone X\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 4648,
+      "length": 12,
+      "value": "\"iPhone11,2\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 4704,
+      "length": 11,
+      "value": "\"iPhone XS\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 4733,
+      "length": 12,
+      "value": "\"iPhone11,4\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 4747,
+      "length": 12,
+      "value": "\"iPhone11,6\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 4789,
+      "length": 15,
+      "value": "\"iPhone XS Max\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 4822,
+      "length": 12,
+      "value": "\"iPhone11,8\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 4878,
+      "length": 11,
+      "value": "\"iPhone XR\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 4907,
+      "length": 12,
+      "value": "\"iPhone12,1\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 4963,
+      "length": 11,
+      "value": "\"iPhone 11\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 4992,
+      "length": 12,
+      "value": "\"iPhone12,3\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 5048,
+      "length": 15,
+      "value": "\"iPhone 11 Pro\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 5081,
+      "length": 12,
+      "value": "\"iPhone12,5\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 5137,
+      "length": 19,
+      "value": "\"iPhone 11 Pro Max\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 5174,
+      "length": 12,
+      "value": "\"iPhone13,1\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 5230,
+      "length": 16,
+      "value": "\"iPhone 12 mini\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 5264,
+      "length": 12,
+      "value": "\"iPhone13,2\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 5320,
+      "length": 11,
+      "value": "\"iPhone 12\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 5349,
+      "length": 12,
+      "value": "\"iPhone13,3\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 5405,
+      "length": 15,
+      "value": "\"iPhone 12 Pro\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 5438,
+      "length": 12,
+      "value": "\"iPhone13,4\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 5494,
+      "length": 19,
+      "value": "\"iPhone 12 Pro Max\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 5531,
+      "length": 12,
+      "value": "\"iPhone14,4\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 5587,
+      "length": 16,
+      "value": "\"iPhone 13 mini\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 5621,
+      "length": 12,
+      "value": "\"iPhone14,5\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 5677,
+      "length": 11,
+      "value": "\"iPhone 13\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 5706,
+      "length": 12,
+      "value": "\"iPhone14,2\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 5762,
+      "length": 15,
+      "value": "\"iPhone 13 Pro\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 5795,
+      "length": 12,
+      "value": "\"iPhone14,3\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 5851,
+      "length": 19,
+      "value": "\"iPhone 13 Pro Max\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 5888,
+      "length": 12,
+      "value": "\"iPhone14,7\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 5944,
+      "length": 11,
+      "value": "\"iPhone 14\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 5973,
+      "length": 12,
+      "value": "\"iPhone14,8\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 6029,
+      "length": 16,
+      "value": "\"iPhone 14 Plus\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 6063,
+      "length": 12,
+      "value": "\"iPhone15,2\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 6119,
+      "length": 15,
+      "value": "\"iPhone 14 Pro\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 6152,
+      "length": 12,
+      "value": "\"iPhone15,3\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 6208,
+      "length": 19,
+      "value": "\"iPhone 14 Pro Max\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 6245,
+      "length": 12,
+      "value": "\"iPhone15,4\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 6301,
+      "length": 11,
+      "value": "\"iPhone 15\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 6330,
+      "length": 12,
+      "value": "\"iPhone15,5\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 6386,
+      "length": 16,
+      "value": "\"iPhone 15 Plus\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 6420,
+      "length": 12,
+      "value": "\"iPhone16,1\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 6476,
+      "length": 15,
+      "value": "\"iPhone 15 Pro\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 6509,
+      "length": 12,
+      "value": "\"iPhone16,2\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 6565,
+      "length": 19,
+      "value": "\"iPhone 15 Pro Max\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 6602,
+      "length": 12,
+      "value": "\"iPhone17,3\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 6658,
+      "length": 11,
+      "value": "\"iPhone 16\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 6687,
+      "length": 12,
+      "value": "\"iPhone17,4\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 6743,
+      "length": 16,
+      "value": "\"iPhone 16 Plus\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 6777,
+      "length": 12,
+      "value": "\"iPhone17,1\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 6833,
+      "length": 15,
+      "value": "\"iPhone 16 Pro\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 6866,
+      "length": 12,
+      "value": "\"iPhone17,2\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 6922,
+      "length": 19,
+      "value": "\"iPhone 16 Pro Max\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 6959,
+      "length": 12,
+      "value": "\"iPhone17,5\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 7015,
+      "length": 12,
+      "value": "\"iPhone 16e\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 7045,
+      "length": 12,
+      "value": "\"iPhone18,3\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 7101,
+      "length": 11,
+      "value": "\"iPhone 17\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 7130,
+      "length": 12,
+      "value": "\"iPhone18,4\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 7186,
+      "length": 12,
+      "value": "\"iPhone Air\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 7216,
+      "length": 12,
+      "value": "\"iPhone18,1\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 7272,
+      "length": 15,
+      "value": "\"iPhone 17 Pro\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 7305,
+      "length": 12,
+      "value": "\"iPhone18,2\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 7361,
+      "length": 19,
+      "value": "\"iPhone 17 Pro Max\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 7398,
+      "length": 11,
+      "value": "\"iPhone8,4\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 7454,
+      "length": 11,
+      "value": "\"iPhone SE\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 7483,
+      "length": 12,
+      "value": "\"iPhone12,8\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 7539,
+      "length": 28,
+      "value": "\"iPhone SE (2nd generation)\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 7585,
+      "length": 12,
+      "value": "\"iPhone14,6\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 7641,
+      "length": 28,
+      "value": "\"iPhone SE (3rd generation)\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 7687,
+      "length": 9,
+      "value": "\"iPad2,1\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 7698,
+      "length": 9,
+      "value": "\"iPad2,2\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 7709,
+      "length": 9,
+      "value": "\"iPad2,3\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 7720,
+      "length": 9,
+      "value": "\"iPad2,4\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 7743,
+      "length": 8,
+      "value": "\"iPad 2\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 7769,
+      "length": 9,
+      "value": "\"iPad3,1\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 7780,
+      "length": 9,
+      "value": "\"iPad3,2\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 7791,
+      "length": 9,
+      "value": "\"iPad3,3\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 7825,
+      "length": 23,
+      "value": "\"iPad (3rd generation)\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 7866,
+      "length": 9,
+      "value": "\"iPad3,4\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 7877,
+      "length": 9,
+      "value": "\"iPad3,5\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 7888,
+      "length": 9,
+      "value": "\"iPad3,6\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 7922,
+      "length": 23,
+      "value": "\"iPad (4th generation)\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 7963,
+      "length": 10,
+      "value": "\"iPad6,11\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 7975,
+      "length": 10,
+      "value": "\"iPad6,12\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 8019,
+      "length": 23,
+      "value": "\"iPad (5th generation)\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 8060,
+      "length": 9,
+      "value": "\"iPad7,5\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 8071,
+      "length": 9,
+      "value": "\"iPad7,6\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 8116,
+      "length": 23,
+      "value": "\"iPad (6th generation)\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 8157,
+      "length": 10,
+      "value": "\"iPad7,11\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 8169,
+      "length": 10,
+      "value": "\"iPad7,12\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 8213,
+      "length": 23,
+      "value": "\"iPad (7th generation)\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 8254,
+      "length": 10,
+      "value": "\"iPad11,6\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 8266,
+      "length": 10,
+      "value": "\"iPad11,7\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 8310,
+      "length": 23,
+      "value": "\"iPad (8th generation)\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 8351,
+      "length": 10,
+      "value": "\"iPad12,1\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 8363,
+      "length": 10,
+      "value": "\"iPad12,2\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 8407,
+      "length": 23,
+      "value": "\"iPad (9th generation)\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 8448,
+      "length": 11,
+      "value": "\"iPad13,18\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 8461,
+      "length": 11,
+      "value": "\"iPad13,19\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 8504,
+      "length": 24,
+      "value": "\"iPad (10th generation)\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 8546,
+      "length": 10,
+      "value": "\"iPad15,7\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 8558,
+      "length": 10,
+      "value": "\"iPad15,8\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 8602,
+      "length": 24,
+      "value": "\"iPad (11th generation)\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 8644,
+      "length": 9,
+      "value": "\"iPad4,1\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 8655,
+      "length": 9,
+      "value": "\"iPad4,2\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 8666,
+      "length": 9,
+      "value": "\"iPad4,3\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 8700,
+      "length": 10,
+      "value": "\"iPad Air\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 8728,
+      "length": 9,
+      "value": "\"iPad5,3\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 8739,
+      "length": 9,
+      "value": "\"iPad5,4\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 8784,
+      "length": 12,
+      "value": "\"iPad Air 2\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 8814,
+      "length": 10,
+      "value": "\"iPad11,3\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 8826,
+      "length": 10,
+      "value": "\"iPad11,4\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 8870,
+      "length": 27,
+      "value": "\"iPad Air (3rd generation)\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 8915,
+      "length": 10,
+      "value": "\"iPad13,1\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 8927,
+      "length": 10,
+      "value": "\"iPad13,2\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 8971,
+      "length": 27,
+      "value": "\"iPad Air (4th generation)\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 9016,
+      "length": 11,
+      "value": "\"iPad13,16\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 9029,
+      "length": 11,
+      "value": "\"iPad13,17\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 9072,
+      "length": 27,
+      "value": "\"iPad Air (5th generation)\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 9117,
+      "length": 10,
+      "value": "\"iPad14,8\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 9129,
+      "length": 10,
+      "value": "\"iPad14,9\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 9173,
+      "length": 25,
+      "value": "\"iPad Air (11-inch) (M2)\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 9216,
+      "length": 11,
+      "value": "\"iPad14,10\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 9229,
+      "length": 11,
+      "value": "\"iPad14,11\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 9272,
+      "length": 25,
+      "value": "\"iPad Air (13-inch) (M2)\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 9315,
+      "length": 10,
+      "value": "\"iPad15,3\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 9327,
+      "length": 10,
+      "value": "\"iPad15,4\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 9371,
+      "length": 25,
+      "value": "\"iPad Air (11-inch) (M3)\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 9414,
+      "length": 10,
+      "value": "\"iPad15,5\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 9426,
+      "length": 10,
+      "value": "\"iPad15,6\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 9470,
+      "length": 25,
+      "value": "\"iPad Air (13-inch) (M3)\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 9513,
+      "length": 9,
+      "value": "\"iPad2,5\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 9524,
+      "length": 9,
+      "value": "\"iPad2,6\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 9535,
+      "length": 9,
+      "value": "\"iPad2,7\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 9569,
+      "length": 11,
+      "value": "\"iPad mini\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 9598,
+      "length": 9,
+      "value": "\"iPad4,4\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 9609,
+      "length": 9,
+      "value": "\"iPad4,5\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 9620,
+      "length": 9,
+      "value": "\"iPad4,6\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 9654,
+      "length": 13,
+      "value": "\"iPad mini 2\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 9685,
+      "length": 9,
+      "value": "\"iPad4,7\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 9696,
+      "length": 9,
+      "value": "\"iPad4,8\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 9707,
+      "length": 9,
+      "value": "\"iPad4,9\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 9741,
+      "length": 13,
+      "value": "\"iPad mini 3\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 9772,
+      "length": 9,
+      "value": "\"iPad5,1\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 9783,
+      "length": 9,
+      "value": "\"iPad5,2\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 9828,
+      "length": 13,
+      "value": "\"iPad mini 4\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 9859,
+      "length": 10,
+      "value": "\"iPad11,1\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 9871,
+      "length": 10,
+      "value": "\"iPad11,2\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 9915,
+      "length": 28,
+      "value": "\"iPad mini (5th generation)\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 9961,
+      "length": 10,
+      "value": "\"iPad14,1\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 9973,
+      "length": 10,
+      "value": "\"iPad14,2\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 10017,
+      "length": 28,
+      "value": "\"iPad mini (6th generation)\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 10063,
+      "length": 10,
+      "value": "\"iPad16,1\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 10075,
+      "length": 10,
+      "value": "\"iPad16,2\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 10119,
+      "length": 21,
+      "value": "\"iPad mini (A17 Pro)\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 10158,
+      "length": 9,
+      "value": "\"iPad6,3\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 10169,
+      "length": 9,
+      "value": "\"iPad6,4\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 10214,
+      "length": 21,
+      "value": "\"iPad Pro (9.7-inch)\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 10253,
+      "length": 9,
+      "value": "\"iPad7,3\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 10264,
+      "length": 9,
+      "value": "\"iPad7,4\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 10309,
+      "length": 22,
+      "value": "\"iPad Pro (10.5-inch)\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 10349,
+      "length": 9,
+      "value": "\"iPad8,1\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 10360,
+      "length": 9,
+      "value": "\"iPad8,2\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 10371,
+      "length": 9,
+      "value": "\"iPad8,3\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 10382,
+      "length": 9,
+      "value": "\"iPad8,4\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 10405,
+      "length": 37,
+      "value": "\"iPad Pro (11-inch) (1st generation)\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 10460,
+      "length": 9,
+      "value": "\"iPad8,9\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 10471,
+      "length": 10,
+      "value": "\"iPad8,10\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 10516,
+      "length": 37,
+      "value": "\"iPad Pro (11-inch) (2nd generation)\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 10571,
+      "length": 10,
+      "value": "\"iPad13,4\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 10583,
+      "length": 10,
+      "value": "\"iPad13,5\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 10595,
+      "length": 10,
+      "value": "\"iPad13,6\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 10607,
+      "length": 10,
+      "value": "\"iPad13,7\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 10627,
+      "length": 37,
+      "value": "\"iPad Pro (11-inch) (3rd generation)\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 10682,
+      "length": 10,
+      "value": "\"iPad14,3\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 10694,
+      "length": 10,
+      "value": "\"iPad14,4\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 10738,
+      "length": 37,
+      "value": "\"iPad Pro (11-inch) (4th generation)\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 10793,
+      "length": 10,
+      "value": "\"iPad16,3\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 10805,
+      "length": 10,
+      "value": "\"iPad16,4\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 10849,
+      "length": 25,
+      "value": "\"iPad Pro (11-inch) (M4)\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 10892,
+      "length": 10,
+      "value": "\"iPad17,1\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 10904,
+      "length": 10,
+      "value": "\"iPad17,2\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 10948,
+      "length": 25,
+      "value": "\"iPad Pro (11-inch) (M5)\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 10991,
+      "length": 9,
+      "value": "\"iPad6,7\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 11002,
+      "length": 9,
+      "value": "\"iPad6,8\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 11047,
+      "length": 39,
+      "value": "\"iPad Pro (12.9-inch) (1st generation)\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 11104,
+      "length": 9,
+      "value": "\"iPad7,1\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 11115,
+      "length": 9,
+      "value": "\"iPad7,2\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 11160,
+      "length": 39,
+      "value": "\"iPad Pro (12.9-inch) (2nd generation)\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 11217,
+      "length": 9,
+      "value": "\"iPad8,5\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 11228,
+      "length": 9,
+      "value": "\"iPad8,6\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 11239,
+      "length": 9,
+      "value": "\"iPad8,7\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 11250,
+      "length": 9,
+      "value": "\"iPad8,8\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 11273,
+      "length": 39,
+      "value": "\"iPad Pro (12.9-inch) (3rd generation)\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 11330,
+      "length": 10,
+      "value": "\"iPad8,11\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 11342,
+      "length": 10,
+      "value": "\"iPad8,12\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 11386,
+      "length": 39,
+      "value": "\"iPad Pro (12.9-inch) (4th generation)\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 11443,
+      "length": 10,
+      "value": "\"iPad13,8\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 11455,
+      "length": 10,
+      "value": "\"iPad13,9\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 11467,
+      "length": 11,
+      "value": "\"iPad13,10\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 11480,
+      "length": 11,
+      "value": "\"iPad13,11\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 11499,
+      "length": 39,
+      "value": "\"iPad Pro (12.9-inch) (5th generation)\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 11556,
+      "length": 10,
+      "value": "\"iPad14,5\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 11568,
+      "length": 10,
+      "value": "\"iPad14,6\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 11612,
+      "length": 39,
+      "value": "\"iPad Pro (12.9-inch) (6th generation)\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 11669,
+      "length": 10,
+      "value": "\"iPad16,5\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 11681,
+      "length": 10,
+      "value": "\"iPad16,6\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 11725,
+      "length": 25,
+      "value": "\"iPad Pro (13-inch) (M4)\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 11768,
+      "length": 10,
+      "value": "\"iPad17,3\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 11780,
+      "length": 10,
+      "value": "\"iPad17,4\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 11824,
+      "length": 25,
+      "value": "\"iPad Pro (13-inch) (M5)\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 11867,
+      "length": 12,
+      "value": "\"AppleTV5,3\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 11923,
+      "length": 10,
+      "value": "\"Apple TV\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 11951,
+      "length": 12,
+      "value": "\"AppleTV6,2\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 12007,
+      "length": 13,
+      "value": "\"Apple TV 4K\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 12038,
+      "length": 19,
+      "value": "\"AudioAccessory1,1\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 12094,
+      "length": 9,
+      "value": "\"HomePod\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 12121,
+      "length": 19,
+      "value": "\"AudioAccessory5,1\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 12177,
+      "length": 14,
+      "value": "\"HomePod mini\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 12209,
+      "length": 6,
+      "value": "\"i386\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 12217,
+      "length": 8,
+      "value": "\"x86_64\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 12227,
+      "length": 7,
+      "value": "\"arm64\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 12265,
+      "length": 104,
+      "value": "\"Simulator \""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 12328,
+      "length": 28,
+      "value": "\"SIMULATOR_MODEL_IDENTIFIER\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 12361,
+      "length": 5,
+      "value": "\"iOS\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 12368,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKit.swift",
       "kind": "Array",
       "offset": 2971,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKit.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKit.swift",
       "kind": "BooleanLiteral",
       "offset": 2992,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKit.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKit.swift",
       "kind": "Array",
       "offset": 5773,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/macbuild\/WH_DIR\/Dec_23_2025\/ZSM_INAPP_SDK_IOS\/12234366\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKit.swift",
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Jan_08_2026\/ZSM_INAPP_SDK_IOS\/12334999\/MACSRC\/Sources\/ZFPurchaseManager\/CommonIAPKitFiles\/ZSKit.swift",
       "kind": "Array",
       "offset": 7612,
       "length": 2,

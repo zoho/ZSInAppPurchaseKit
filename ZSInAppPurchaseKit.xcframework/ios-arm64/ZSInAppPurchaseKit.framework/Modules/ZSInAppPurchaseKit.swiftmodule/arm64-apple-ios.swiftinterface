@@ -76,13 +76,10 @@ public struct ZSStoreTransaction {
   public var originalTransactionId: Swift.String {
     get
   }
-  public var jsonStrting: Swift.String? {
+  public var jsonString: Swift.String? {
     get
   }
   public var jsonDictionary: [Swift.String : Any]? {
-    get
-  }
-  public var jsonData: Foundation.Data {
     get
   }
   public var jwsRepresentation: Swift.String {
@@ -274,6 +271,18 @@ extension StoreKit.Transaction {
   public var originalTransactionId: Swift.String {
     get
   }
+  public var jsonDictionary: [Swift.String : Any]? {
+    get
+  }
+  public var jsonString: Swift.String? {
+    get
+  }
+}
+extension UIKit.UIDevice {
+  @_Concurrency.MainActor @preconcurrency public static let modelName: Swift.String
+  @_Concurrency.MainActor @preconcurrency public static func data(for keys: [Swift.Int32]) -> [Swift.Int8]?
+  @_Concurrency.MainActor @preconcurrency public static func string(for keys: [Swift.Int32]) -> Swift.String?
+  @_Concurrency.MainActor @preconcurrency public static let currentMacDeviceIdentifier: Swift.String?
 }
 @objc @_inheritsConvenienceInitializers final public class ZSKit : ObjectiveC.NSObject {
   final public class func initialize(configuration: ZSInAppPurchaseKit.ZSConfiguration)

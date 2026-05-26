@@ -62,6 +62,15 @@ public enum ZSErrorCode : Swift.Int {
   case configurationMissing
   case appStorePaymentPending
   case appStoreTransactionUnverified
+  case invalidOfferSignature
+  case invalidOfferNonce
+  case invalidOfferTimestamp
+  case appStoreInvalidQuantity
+  case appStoreIneligibleForOffer
+  case appStoreNetworkError
+  case appStoreSystemError
+  case appStoreNotAvailableInStorefront
+  case appStoreNotEntitled
   public init?(rawValue: Swift.Int)
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
@@ -88,11 +97,11 @@ public struct ZSStoreTransaction {
 }
 public struct ZSPromotionalOfferSignature {
   public var offerID: Swift.String
-  public var signature: Foundation.Data
+  public var signature: Swift.String
   public var keyID: Swift.String
-  public var nonce: Foundation.UUID
-  public var timestamp: Swift.Int
-  public init(offerID: Swift.String, signature: Foundation.Data, keyID: Swift.String, nonce: Foundation.UUID, timestamp: Swift.Int)
+  public var nonce: Swift.String
+  public var timestamp: Swift.String
+  public init(offerID: Swift.String, signature: Swift.String, keyID: Swift.String, nonce: Swift.String, timestamp: Swift.String)
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class ZSCustomField : ObjectiveC.NSObject {
   public var label: Swift.String
@@ -172,6 +181,8 @@ public struct ZSCustomFieldFilter {
   public var description: Swift.String {
     get
   }
+  public var purchaseError: StoreKit.Product.PurchaseError?
+  public var storeKitError: StoreKit.StoreKitError?
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers final public class ZSIAPProductPurchaseDetail : ObjectiveC.NSObject {
@@ -285,6 +296,7 @@ extension UIKit.UIDevice {
   @_Concurrency.MainActor @preconcurrency public static let currentMacDeviceIdentifier: Swift.String?
 }
 @objc @_inheritsConvenienceInitializers final public class ZSKit : ObjectiveC.NSObject {
+  public static var dLogsEnabled: Swift.Bool
   final public class func initialize(configuration: ZSInAppPurchaseKit.ZSConfiguration)
   final public class func getPlans(customFilters: [ZSInAppPurchaseKit.ZSCustomFieldFilter] = [], useCache: Swift.Bool = false, completion: @escaping ZSInAppPurchaseKit.ZSPlansHandler)
   final public class func getStoreKitProducts(productIDs: [Swift.String], completion: @escaping ZSInAppPurchaseKit.ZSSKProductsHandler)
@@ -296,6 +308,8 @@ extension UIKit.UIDevice {
   final public class func setDelegate(delegate: any ZSInAppPurchaseKit.ZSKitDelegate)
   final public class func isUserEligibleForIntroductoryOffer(product: StoreKit.Product) async -> Swift.Bool
   final public class func isUserEligibleForIntroductoryOffer(groupId: Swift.String) async -> Swift.Bool
+  final public class func getOfferAppliedTransactions(offerIDs: [Swift.String] = [], offerType: StoreKit.Transaction.OfferType? = nil) async -> [ZSInAppPurchaseKit.ZSStoreTransaction]
+  final public class func isPromotionalOfferAlreadyApplied(offerID: Swift.String) async -> Swift.Bool
   final public class func isStorePurchaseAssociatedWithCurrentUser(completion: @escaping ZSInAppPurchaseKit.ZSUserValidateHandler)
   final public class func isStorePurchaseAssociatedWithCurrentUser(storeTransaction: ZSInAppPurchaseKit.ZSStoreTransaction, completion: @escaping ZSInAppPurchaseKit.ZSUserValidateHandler)
   final public class func getCurrentEntitlements() async -> [ZSInAppPurchaseKit.ZSStoreTransaction]

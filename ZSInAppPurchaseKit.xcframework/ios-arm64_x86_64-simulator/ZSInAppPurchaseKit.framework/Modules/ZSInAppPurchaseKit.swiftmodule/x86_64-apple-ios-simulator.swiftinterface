@@ -309,6 +309,7 @@ extension UIKit.UIDevice {
   final public class func isUserEligibleForIntroductoryOffer(product: StoreKit.Product) async -> Swift.Bool
   final public class func isUserEligibleForIntroductoryOffer(groupId: Swift.String) async -> Swift.Bool
   final public class func getOfferAppliedTransactions(offerIDs: [Swift.String] = [], offerType: StoreKit.Transaction.OfferType? = nil) async -> [ZSInAppPurchaseKit.ZSStoreTransaction]
+  final public class func getRenewalOffers(offerIDs: [Swift.String] = [], offerType: StoreKit.Transaction.OfferType? = nil) async -> [StoreKit.Product.SubscriptionInfo.RenewalInfo]
   final public class func isPromotionalOfferAlreadyApplied(offerID: Swift.String) async -> Swift.Bool
   final public class func isStorePurchaseAssociatedWithCurrentUser(completion: @escaping ZSInAppPurchaseKit.ZSUserValidateHandler)
   final public class func isStorePurchaseAssociatedWithCurrentUser(storeTransaction: ZSInAppPurchaseKit.ZSStoreTransaction, completion: @escaping ZSInAppPurchaseKit.ZSUserValidateHandler)
